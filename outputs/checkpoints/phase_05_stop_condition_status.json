@@ -1,0 +1,21 @@
+{
+  "input_validation": "PASS",
+  "kg_model": "KG_M2",
+  "kg_est": "-0.2140; [-0.6549, 0.2269]; 0.3415",
+  "kg_pattern": "DIRECTIONAL BUT IMPRECISE",
+  "uz_model": "UZ_M2",
+  "uz_est": "-1.1119; [-1.8088, -0.4151]; 0.001764",
+  "uz_pattern": "SUPPORTED",
+  "fe_status": "COMPLETED",
+  "direction": "CONSISTENT",
+  "kaz_status": "COMPLETED",
+  "kg_robustness": "SPECIFICATION-SENSITIVE",
+  "uz_robustness": "GENERALLY CONSISTENT",
+  "critical": [
+    "Uzbekistan remittance-by-work-loss cell is adequate but small, so precision should be reviewed.",
+    "L2CU estimates remain unweighted because popw interpretation is not approved.",
+    "Kazakhstan supplied probability means are not labelled official national prevalence estimates.",
+    "Kyrgyzstan M3 has substantial sample loss because extended categorical controls are sparse."
+  ],
+  "recommended": "PROCEED"
+}

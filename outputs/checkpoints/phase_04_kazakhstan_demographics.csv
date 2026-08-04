@@ -1,0 +1,79 @@
+country,survey_year,grouping_variable,group,unweighted_observations,small_cell_status,weight_status,weighted_mean_raw_score,mean_supplied_probability_mod_sev,mean_supplied_probability_sev
+Kazakhstan,2014,kaz_gender,1.0,427,ADEQUATE,kaz_weight_original; year-specific only,0.7587428338779906,0.07862693890813663,0.0034262706211210135
+Kazakhstan,2014,kaz_gender,2.0,573,ADEQUATE,kaz_weight_original; year-specific only,0.8406302309273469,0.08460543206936517,0.010474545205792534
+Kazakhstan,2014,age_group,18-29,241,ADEQUATE,kaz_weight_original; year-specific only,0.6389453389885491,0.06838611139238754,0.004438552669461758
+Kazakhstan,2014,age_group,30-44,295,ADEQUATE,kaz_weight_original; year-specific only,0.8078637987566152,0.07494494707690821,0.002118994036446849
+Kazakhstan,2014,age_group,45-59,232,ADEQUATE,kaz_weight_original; year-specific only,0.8981437837260228,0.09145413560560252,0.008697616606244903
+Kazakhstan,2014,age_group,60 and older,186,ADEQUATE,kaz_weight_original; year-specific only,1.0987150203573064,0.11742266208215585,0.025671608174698175
+Kazakhstan,2014,age_group,nan,46,ADEQUATE,kaz_weight_original; year-specific only,0.6613914319862038,0.07080981381003938,0.00012418057483129486
+Kazakhstan,2014,kaz_education,1.0,84,ADEQUATE,kaz_weight_original; year-specific only,1.2851595317153421,0.17211979521001433,0.021948975964404965
+Kazakhstan,2014,kaz_education,2.0,642,ADEQUATE,kaz_weight_original; year-specific only,0.7945703871876395,0.0735857460547702,0.006051741948625859
+Kazakhstan,2014,kaz_education,3.0,262,ADEQUATE,kaz_weight_original; year-specific only,0.48868016694044714,0.04507503426788923,0.00036054506306067835
+Kazakhstan,2014,kaz_education,5.0,12,SUPPRESSED_SMALL_CELL,kaz_weight_original; year-specific only,,,
+Kazakhstan,2014,kaz_income,1.0,167,ADEQUATE,kaz_weight_original; year-specific only,1.1788272748046824,0.12356456511504413,0.00745912741880697
+Kazakhstan,2014,kaz_income,2.0,186,ADEQUATE,kaz_weight_original; year-specific only,1.0404621262574862,0.11980242378126978,0.01744484632103926
+Kazakhstan,2014,kaz_income,3.0,180,ADEQUATE,kaz_weight_original; year-specific only,0.654325825344347,0.056624724214027505,0.007086748268551017
+Kazakhstan,2014,kaz_income,4.0,202,ADEQUATE,kaz_weight_original; year-specific only,0.6951546686225142,0.07196351857141438,0.004055751767108662
+Kazakhstan,2014,kaz_income,5.0,265,ADEQUATE,kaz_weight_original; year-specific only,0.4293379271708528,0.03537778492351434,4.0923357006376116e-05
+Kazakhstan,2014,children_in_household,children present,475,ADEQUATE,kaz_weight_original; year-specific only,0.7545910444282016,0.07496764126044476,0.004895730387875412
+Kazakhstan,2014,children_in_household,no children,525,ADEQUATE,kaz_weight_original; year-specific only,0.84970302214725,0.08858383685965357,0.009450514121042796
+Kazakhstan,2014,kaz_area,1.0,433,ADEQUATE,kaz_weight_original; year-specific only,0.7854559190675795,0.07411116658509442,0.0015847486832345815
+Kazakhstan,2014,kaz_area,2.0,567,ADEQUATE,kaz_weight_original; year-specific only,0.8158696160491609,0.08791506552022436,0.011620438432904475
+Kazakhstan,2015,kaz_gender,1.0,420,ADEQUATE,kaz_weight_original; year-specific only,0.4404980279930207,0.03786979057598038,0.0007291976601560637
+Kazakhstan,2015,kaz_gender,2.0,580,ADEQUATE,kaz_weight_original; year-specific only,0.6049642566380576,0.056501768405787293,0.008340333309971578
+Kazakhstan,2015,age_group,18-29,259,ADEQUATE,kaz_weight_original; year-specific only,0.3420767998351662,0.019349125266528492,0.0003031244849660783
+Kazakhstan,2015,age_group,30-44,321,ADEQUATE,kaz_weight_original; year-specific only,0.6190583380745731,0.060574789328403225,0.004541816859942716
+Kazakhstan,2015,age_group,45-59,252,ADEQUATE,kaz_weight_original; year-specific only,0.6084402378838133,0.06731988080219951,0.0077351309558048925
+Kazakhstan,2015,age_group,60 and older,147,ADEQUATE,kaz_weight_original; year-specific only,0.6857534665078857,0.06718935455234912,0.012866427434490964
+Kazakhstan,2015,age_group,nan,21,SUPPRESSED_SMALL_CELL,kaz_weight_original; year-specific only,,,
+Kazakhstan,2015,kaz_education,1.0,58,ADEQUATE,kaz_weight_original; year-specific only,0.7130824038946295,0.07244807250464204,0.01888574854092967
+Kazakhstan,2015,kaz_education,2.0,629,ADEQUATE,kaz_weight_original; year-specific only,0.5449489909284791,0.050143637582596136,0.003412714209417237
+Kazakhstan,2015,kaz_education,3.0,309,ADEQUATE,kaz_weight_original; year-specific only,0.37628843410671325,0.02759813893422199,0.0006776911858996686
+Kazakhstan,2015,kaz_education,5.0,4,SUPPRESSED_SMALL_CELL,kaz_weight_original; year-specific only,,,
+Kazakhstan,2015,kaz_income,1.0,164,ADEQUATE,kaz_weight_original; year-specific only,0.8840021170860475,0.0937491816740731,0.014040729360941237
+Kazakhstan,2015,kaz_income,2.0,176,ADEQUATE,kaz_weight_original; year-specific only,0.4877351371617651,0.03942519375057275,0.0004482077458579199
+Kazakhstan,2015,kaz_income,3.0,185,ADEQUATE,kaz_weight_original; year-specific only,0.5357087315995174,0.052143889311258615,0.005133196792454163
+Kazakhstan,2015,kaz_income,4.0,214,ADEQUATE,kaz_weight_original; year-specific only,0.39755756807166753,0.03403307519395232,0.004307022332824626
+Kazakhstan,2015,kaz_income,5.0,261,ADEQUATE,kaz_weight_original; year-specific only,0.34275200782715326,0.020401273709869834,1.2086073210119716e-05
+Kazakhstan,2015,children_in_household,children present,533,ADEQUATE,kaz_weight_original; year-specific only,0.5397915197283383,0.04802911629071257,0.0037955072877265783
+Kazakhstan,2015,children_in_household,no children,467,ADEQUATE,kaz_weight_original; year-specific only,0.5147444944680583,0.047580491911616216,0.005988787336613562
+Kazakhstan,2015,kaz_area,1.0,392,ADEQUATE,kaz_weight_original; year-specific only,0.4943124251739533,0.04622147915193181,0.005238147671806543
+Kazakhstan,2015,kaz_area,2.0,608,ADEQUATE,kaz_weight_original; year-specific only,0.547783917300984,0.04873836377272383,0.004543472539847876
+Kazakhstan,2016,kaz_gender,1.0,422,ADEQUATE,kaz_weight_original; year-specific only,0.5623534430492447,0.06293318690017817,0.016385453623988622
+Kazakhstan,2016,kaz_gender,2.0,578,ADEQUATE,kaz_weight_original; year-specific only,0.7856399867048833,0.09065557279155044,0.02019559530219792
+Kazakhstan,2016,age_group,18-29,235,ADEQUATE,kaz_weight_original; year-specific only,0.558192069604397,0.06115990934639184,0.012805386970426096
+Kazakhstan,2016,age_group,30-44,346,ADEQUATE,kaz_weight_original; year-specific only,0.7615370027092166,0.0842830399052075,0.022560835724998344
+Kazakhstan,2016,age_group,45-59,242,ADEQUATE,kaz_weight_original; year-specific only,0.8064264017379263,0.09300992751764478,0.026112575211849443
+Kazakhstan,2016,age_group,60 and older,141,ADEQUATE,kaz_weight_original; year-specific only,0.7657588552805482,0.09330512874216192,0.018802294616340167
+Kazakhstan,2016,age_group,nan,36,ADEQUATE,kaz_weight_original; year-specific only,0.28612341181571993,0.036958957879905024,6.516758851666401e-05
+Kazakhstan,2016,kaz_education,1.0,71,ADEQUATE,kaz_weight_original; year-specific only,0.6963811252095642,0.08429941727656384,0.007065831883982366
+Kazakhstan,2016,kaz_education,2.0,582,ADEQUATE,kaz_weight_original; year-specific only,0.7812782878889019,0.08949159740180944,0.024121337131336212
+Kazakhstan,2016,kaz_education,3.0,347,ADEQUATE,kaz_weight_original; year-specific only,0.37596438233796836,0.03828247583942568,0.009789426899476117
+Kazakhstan,2016,kaz_income,1.0,163,ADEQUATE,kaz_weight_original; year-specific only,0.9739680754030631,0.11959550941828821,0.01589864385244303
+Kazakhstan,2016,kaz_income,2.0,168,ADEQUATE,kaz_weight_original; year-specific only,0.7727955185667587,0.08040554202504342,0.02739817944222421
+Kazakhstan,2016,kaz_income,3.0,190,ADEQUATE,kaz_weight_original; year-specific only,0.6054374359655227,0.06677618768204582,0.007327719589706591
+Kazakhstan,2016,kaz_income,4.0,220,ADEQUATE,kaz_weight_original; year-specific only,0.6509746936177021,0.07228826247164205,0.03156270588982201
+Kazakhstan,2016,kaz_income,5.0,259,ADEQUATE,kaz_weight_original; year-specific only,0.4191581597662303,0.05129555253920206,0.009802394914650443
+Kazakhstan,2016,children_in_household,children present,468,ADEQUATE,kaz_weight_original; year-specific only,0.722176075900395,0.08307429849902837,0.015945171486066344
+Kazakhstan,2016,children_in_household,no children,532,ADEQUATE,kaz_weight_original; year-specific only,0.639345022876929,0.07220690821218986,0.02072962186541898
+Kazakhstan,2016,kaz_area,1.0,384,ADEQUATE,kaz_weight_original; year-specific only,0.84095734711737,0.0980884979309892,0.03175607056782608
+Kazakhstan,2016,kaz_area,2.0,616,ADEQUATE,kaz_weight_original; year-specific only,0.591357771728144,0.06622397510772124,0.01104954237835253
+Kazakhstan,2017,kaz_gender,1.0,431,ADEQUATE,kaz_weight_original; year-specific only,0.7909949836001907,0.09021345161279531,0.015244631603934486
+Kazakhstan,2017,kaz_gender,2.0,569,ADEQUATE,kaz_weight_original; year-specific only,0.8467694084521555,0.09558385806699966,0.018823901298105402
+Kazakhstan,2017,age_group,18-29,217,ADEQUATE,kaz_weight_original; year-specific only,0.6363835514504028,0.06721014320086842,0.013105022975643947
+Kazakhstan,2017,age_group,30-44,362,ADEQUATE,kaz_weight_original; year-specific only,1.1563749806445778,0.13588751457803228,0.0239025152154581
+Kazakhstan,2017,age_group,45-59,214,ADEQUATE,kaz_weight_original; year-specific only,0.8412572626179096,0.09791113966458537,0.013393572329032193
+Kazakhstan,2017,age_group,60 and older,172,ADEQUATE,kaz_weight_original; year-specific only,0.9786055594705921,0.10950562259010226,0.028272198956492203
+Kazakhstan,2017,age_group,nan,35,ADEQUATE,kaz_weight_original; year-specific only,0.0378026556845311,0.0007800548468905405,1.546621900817606e-07
+Kazakhstan,2017,kaz_education,1.0,79,ADEQUATE,kaz_weight_original; year-specific only,0.6091346019031851,0.06146033333876642,0.016976076057569664
+Kazakhstan,2017,kaz_education,2.0,637,ADEQUATE,kaz_weight_original; year-specific only,0.976849698719281,0.11054513116027542,0.020889841242952914
+Kazakhstan,2017,kaz_education,3.0,284,ADEQUATE,kaz_weight_original; year-specific only,0.507351960938758,0.06455398449915516,0.005632885180219351
+Kazakhstan,2017,kaz_income,1.0,183,ADEQUATE,kaz_weight_original; year-specific only,1.429984480148651,0.16958399747054087,0.04697357270484437
+Kazakhstan,2017,kaz_income,2.0,177,ADEQUATE,kaz_weight_original; year-specific only,0.9366122420795376,0.10437530576885032,0.008568277703358673
+Kazakhstan,2017,kaz_income,3.0,200,ADEQUATE,kaz_weight_original; year-specific only,0.8216547729796,0.09549769878489044,0.006593115063033125
+Kazakhstan,2017,kaz_income,4.0,225,ADEQUATE,kaz_weight_original; year-specific only,0.6282847524532227,0.0725932948706144,0.017545003518933528
+Kazakhstan,2017,kaz_income,5.0,215,ADEQUATE,kaz_weight_original; year-specific only,0.3159976736485341,0.02695841691967048,0.007447015721473031
+Kazakhstan,2017,children_in_household,children present,534,ADEQUATE,kaz_weight_original; year-specific only,1.022248470724809,0.12201064147615263,0.023229458667555346
+Kazakhstan,2017,children_in_household,no children,466,ADEQUATE,kaz_weight_original; year-specific only,0.5997607310381181,0.06134419887849234,0.01049371583930962
+Kazakhstan,2017,kaz_area,1.0,400,ADEQUATE,kaz_weight_original; year-specific only,0.8410397031613286,0.09253307470428296,0.013870247605824408
+Kazakhstan,2017,kaz_area,2.0,600,ADEQUATE,kaz_weight_original; year-specific only,0.8079542152213097,0.0934297379259455,0.01923844823242325

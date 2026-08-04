@@ -1,0 +1,14 @@
+result,source_file,actual,expected,status
+KG_M2 beta3,outputs/checkpoints/phase_05_interaction_contrasts.csv,-0.2140051742341785,-0.214,PASS
+KG_M2 ci lower,outputs/checkpoints/phase_05_interaction_contrasts.csv,-0.6549481780204756,-0.6549,PASS
+KG_M2 ci upper,outputs/checkpoints/phase_05_interaction_contrasts.csv,0.2269378295521184,0.2269,PASS
+UZBROAD_M2 beta3,outputs/checkpoints/phase_05_revision_interaction_contrasts.csv,-0.5406385917369163,-0.5406,PASS
+UZBROAD_M2 ci lower,outputs/checkpoints/phase_05_revision_interaction_contrasts.csv,-1.041470927140784,-1.0415,PASS
+UZBROAD_M2 ci upper,outputs/checkpoints/phase_05_revision_interaction_contrasts.csv,-0.0398062563330485,-0.0398,PASS
+UZBROAD_FE beta3,outputs/checkpoints/phase_05_revision_broad_shock_fixed_effects.csv,-0.1770732788615731,-0.1771,PASS
+KG standardized beta3,outputs/tables/table_27_revised_standardized_country_comparison.csv,-0.0908010197823841,-0.091,PASS
+UZ standardized beta3,outputs/tables/table_27_revised_standardized_country_comparison.csv,-0.3369095816946132,-0.337,PASS
+"UZ prediction No remittance, no verified shock",outputs/tables/table_25_uzbekistan_broad_shock_predictions.csv,0.7344179641307182,approved prediction source,PASS
+"UZ prediction Remittance, no verified shock",outputs/tables/table_25_uzbekistan_broad_shock_predictions.csv,0.5962551983450264,approved prediction source,PASS
+"UZ prediction No remittance, verified shock",outputs/tables/table_25_uzbekistan_broad_shock_predictions.csv,1.288239918561107,approved prediction source,PASS
+"UZ prediction Remittance, verified shock",outputs/tables/table_25_uzbekistan_broad_shock_predictions.csv,0.6094385610384991,approved prediction source,PASS

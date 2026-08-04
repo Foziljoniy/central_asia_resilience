@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.vendor/
+.pytest_cache/
+
+# Protected survey data and derived microdata
+# Do not publish restricted/provider-controlled household microdata to GitHub.
+data/**
+!data/
+!data/raw/
+!data/raw/README.md
+
+# Generated analytical artifacts retained for paper review
+outputs/models/**
+outputs/logs/*.log
+outputs/checkpoints/phase_01_documentation_audit.json
+outputs/checkpoints/phase_01_variable_metadata.csv
+
+# Local build/render scratch
+tmp/
+manuscript/final/*.aux
+manuscript/final/*.bbl
+manuscript/final/*.bcf
+manuscript/final/*.blg
+manuscript/final/*.log
+manuscript/final/*.out
+manuscript/final/*.run.xml
+manuscript/final/miktex_diagnostic_minimal.*
+fist.txt
+
+# OS/editor files
+Thumbs.db
+.DS_Store
+~$*

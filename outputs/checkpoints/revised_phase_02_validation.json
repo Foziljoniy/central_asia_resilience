@@ -1,0 +1,12 @@
+{
+  "required_outputs_exist": true,
+  "raw_source_hashes_unchanged": true,
+  "l2cu_zip_integrity_passed": true,
+  "minimum_registry_rows_present": true,
+  "kazakhstan_all_fields_pending": true,
+  "kazakhstan_does_not_block_two_country_decision": true,
+  "processed_data_written": false,
+  "regression_run": false,
+  "countries_pooled": false,
+  "respondent_level_output_written": false
+}

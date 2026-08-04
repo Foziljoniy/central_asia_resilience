@@ -1,0 +1,12 @@
+display_order,table_number,title,source_file,main_text_or_appendix,purpose,country,primary_or_secondary,required_revision,notes
+1,Table 1,Sample and variable definitions,research/phase_06_evidence_classification.csv,main text,Define units and variables,All,primary,draft from registers,
+2,Table 2,Descriptive four-group outcomes,outputs/tables/table_17_kyrgyzstan_predicted_groups.csv; outputs/tables/table_25_uzbekistan_broad_shock_predictions.csv,main text,Show adjusted groups,KG+UZ,primary,combine carefully,
+3,Table 3,Kyrgyzstan preferred models,outputs/tables/table_16_kyrgyzstan_main_models.csv,main text,KG results,Kyrgyzstan,primary,select KG_M2,
+4,Table 4,Uzbekistan broad-shock preferred models,outputs/tables/table_24_uzbekistan_broad_shock_models.csv,main text,UZ results,Uzbekistan,primary,select UZBROAD_M2,
+5,Table 5,Interaction contrasts and adjusted predictions,outputs/checkpoints/phase_05_revision_interaction_contrasts.csv,main text,Interpret interaction,KG+UZ,primary,merge KG and UZ,
+6,Table 6,Standardized country comparison,outputs/tables/table_27_revised_standardized_country_comparison.csv,main text,Directional comparison,KG+UZ,primary,note differences,
+7,Table 7,Kazakhstan annual benchmark,outputs/tables/table_22_kazakhstan_benchmark_with_ci.csv,main text,Benchmark context,Kazakhstan,benchmark,word supplied probabilities carefully,
+8,Appendix,Work-loss exploratory model,outputs/tables/table_18_uzbekistan_main_models.csv,appendix,Preserve sparse result,Uzbekistan,secondary,sparse warning,
+
+
+Phase 7 limited robustness: completed; primary findings preserved; remaining literature and weight limitations documented.

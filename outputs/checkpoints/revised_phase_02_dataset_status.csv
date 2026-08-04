@@ -1,0 +1,5 @@
+﻿country,dataset,role,phase_02_status,microdata_status
+Kyrgyzstan,LiK,main panel and household analysis,AUDITED,AVAILABLE
+Uzbekistan,L2CU 2018-2025,main household-panel analysis,AUDITED,AVAILABLE
+Uzbekistan,MICS,optional descriptive context only; excluded from main interaction model,NOT IN MAIN AUDIT,AVAILABLE
+Kazakhstan,FIES,future regional policy benchmark; excluded from current regression,PENDING DATA ACCESS,PENDING DATA ACCESS

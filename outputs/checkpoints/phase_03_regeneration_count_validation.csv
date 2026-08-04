@@ -1,0 +1,10 @@
+﻿country,dataset,previous_count,regenerated_count,difference,status,explanation
+Kyrgyzstan,adult rows constructed,7043,7043,0,MATCH,Matches completed Phase 3 count.
+Kyrgyzstan,household sensitivity rows,2314,2314,0,MATCH,Matches completed Phase 3 count.
+Uzbekistan,household-round rows,48925,48925,0,MATCH,Matches completed Phase 3 count.
+Kazakhstan,combined source records,4000,4000,0,MATCH,Matches completed Phase 3 count.
+Kyrgyzstan,eligible adults,6315,6315,0,MATCH,Matches completed Phase 3 count.
+Kyrgyzstan,eligible households,2314,2314,0,MATCH,Matches completed Phase 3 count.
+Uzbekistan,eligible household-rounds,47135,47135,0,MATCH,Matches completed Phase 3 count.
+Uzbekistan,unique households,2036,2036,0,MATCH,Matches completed Phase 3 count.
+Kazakhstan,benchmark-eligible records,3728,3728,0,MATCH,Matches completed Phase 3 count.

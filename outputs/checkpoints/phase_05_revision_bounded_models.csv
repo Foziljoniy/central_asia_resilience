@@ -1,0 +1,6 @@
+model_id,model_family,interaction_log_coefficient,clustered_se,ci_lower,ci_upper,p_value,observations,clusters,note,group,prediction,method,weight_status
+UZBROAD_POISSON_M2,Poisson pseudo-maximum-likelihood,-0.4923224797012453,0.35106175065820877,-1.1803908673409151,0.1957459079384245,0.16080137582729037,47135,2000,Do not interpret nonlinear interaction coefficient by itself.,,,,
+UZBROAD_POISSON_M2,,,,0.6767596449027007,0.7919996256210617,,47135,2000,,"No remittance, no verified shock",0.7343796352618812,Poisson observed-value standardization,unweighted; popw not used
+UZBROAD_POISSON_M2,,,,0.4885421915919892,0.6903052800233398,,47135,2000,,"Remittance, no verified shock",0.5894237358076645,Poisson observed-value standardization,unweighted; popw not used
+UZBROAD_POISSON_M2,,,,1.0809253543067703,1.4570050747679306,,47135,2000,,"No remittance, verified shock",1.2689652145373504,Poisson observed-value standardization,unweighted; popw not used
+UZBROAD_POISSON_M2,,,,0.19556254447942112,1.049450128510819,,47135,2000,,"Remittance, verified shock",0.6225063364951201,Poisson observed-value standardization,unweighted; popw not used

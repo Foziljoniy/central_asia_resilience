@@ -1,0 +1,13 @@
+country,control,source_variable,role,missingness,core_or_extended,potential_post_treatment,included_model_ids,reason,notes
+Kyrgyzstan,adult age,h103a,core demographic,low,core,0,KG_M1;KG_M2;KG_M3,verified adult age,
+Kyrgyzstan,adult sex,h102,core demographic,low,core,0,KG_M1;KG_M2;KG_M3,verified adult sex,
+Kyrgyzstan,verified demographic category,h104,core demographic,low,core,0,KG_M1;KG_M2;KG_M3,retained as verified categorical demographic variable,label cautious
+Kyrgyzstan,household size,lik_household_size,household composition,none,core,0,KG_M1;KG_M2;KG_M3,verified household size,
+Kyrgyzstan,child presence proxy,kg_child_present,household composition,none,core,0,KG_M1;KG_M2;KG_M3,derived from household size and adults in roster,
+Kyrgyzstan,residence,residence,location,low,core,0,KG_M2;KG_M3,rural/urban style location variable,
+Kyrgyzstan,region,oblast,location fixed effects,none,core,0,KG_M2;KG_M3,region fixed effects,
+Kyrgyzstan,migrant household,lik_migrant_household,extended socioeconomic,low,extended,1,KG_M3,sensitivity only,may be intertwined with remittance treatment
+Uzbekistan,household size,hhsize,household composition,none,core,0,UZ_M1;UZ_M2;UZ_M3,verified household size,
+Uzbekistan,roster count,l2cu_roster_member_count,composition,low,core,0,UZ_M1;UZ_M2;UZ_M3,verified roster count,
+Uzbekistan,round fixed effects,round,time,none,core,0,UZ_M2;UZ_M3,round fixed effects,
+Uzbekistan,income amount proxies,wage/ag/selfemp/other income,extended welfare,high,extended,1,UZ_M3,sensitivity only,possible post-treatment

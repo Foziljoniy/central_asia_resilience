@@ -1,0 +1,13 @@
+source,exists,readable,version,purpose,numerical_status,citation_status,manuscript_use,warning,notes
+outputs/checkpoints/PHASE_06_SYNTHESIS.md,True,True,approved Phase 6/7,Phase 6 synthesis,PASS,PASS,synthesis,,
+outputs/checkpoints/PHASE_07_LIMITED_ROBUSTNESS.md,True,True,approved Phase 6/7,Phase 7 robustness,PASS,PASS,robustness,,
+outputs/checkpoints/phase_06_claims_register.csv,True,True,approved Phase 6/7,claims register,PASS,PASS,claims,,
+outputs/checkpoints/phase_07_claim_citation_audit.csv,True,True,approved Phase 6/7,citation audit,PASS,PASS WITH GAPS,citations,,
+manuscript/final_evidence_hierarchy.md,True,True,approved Phase 6/7,evidence hierarchy,PASS,PASS,hierarchy,,
+manuscript/manuscript_freeze_record.yaml,True,True,approved Phase 6/7,freeze record,PASS,PASS,freeze,,
+manuscript/results_core.md,True,True,approved Phase 6/7,results core,PASS,PASS,results,,
+manuscript/limitations_register.md,True,True,approved Phase 6/7,limitations,PASS,PASS,limitations,,
+manuscript/contribution_statement.md,True,True,approved Phase 6/7,contribution,PASS,PASS,contribution,,
+manuscript/policy_implication_boundaries.md,True,True,approved Phase 6/7,policy boundaries,PASS,PASS,policy,,
+manuscript/final_table_plan.csv,True,True,approved Phase 6/7,table plan,PASS,PASS,tables,,
+manuscript/final_figure_plan.csv,True,True,approved Phase 6/7,figure plan,PASS,PASS,figures,,

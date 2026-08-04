@@ -1,0 +1,5 @@
+model_id,group,remittance,shock,estimate,standard_error,ci_lower,ci_upper,observations,clusters,method,weight_status
+UZ_M2,"No remittance, no work-loss shock",0,0,0.7379853610450664,0.0294461402776312,0.6802719866171949,0.7956987354729379,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M2,"Remittance, no work-loss shock",1,0,0.5973973287829871,0.0498824143786626,0.4996295931389054,0.6951650644270688,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M2,"No remittance, work-loss shock",0,1,1.5522103069401003,0.1670719533869669,1.2247552954748906,1.8796653184053105,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M2,"Remittance, work-loss shock",1,1,0.2997105458316531,0.3316604467479079,-0.3503319848907109,0.949753076554017,47135,2000,observed-value standardization,unweighted; popw not used

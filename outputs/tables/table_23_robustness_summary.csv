@@ -1,0 +1,4 @@
+country,retains_direction,models_completed,conclusion,basis
+Kyrgyzstan,False,9,SPECIFICATION-SENSITIVE,"direction, magnitude, precision, and specification family; not based solely on p-values"
+Uzbekistan,True,5,GENERALLY CONSISTENT,"direction, magnitude, precision, and specification family; not based solely on p-values"
+Uzbekistan broad-shock revision,True,"OLS, FE, Poisson, influence",GENERALLY STABLE,Broad-shock primary revision; not selected by p-value alone.

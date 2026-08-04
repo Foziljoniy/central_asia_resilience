@@ -1,0 +1,16 @@
+variable,observations,unique_households,weight_status,note,denominator,nonmissing,missing,small_cell_status,mean,sd,median,p25,p75,min,max
+household_round_observations,47135,2000,unweighted; popw not used,L2CU results are unweighted because the interpretation and normalization of `popw` have not been approved.,,,,,,,,,,,
+hhsize,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,5.727930412644532,2.364102350010558,6.0,4.0,7.0,0.0,22.0
+l2cu_roster_member_count,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,5.394229341253845,2.4195479003019518,5.0,4.0,7.0,1.0,20.0
+uzb_any_remittance,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.0683144160390368,0.25228734996759233,0.0,0.0,0.0,0.0,1.0
+uzb_member_migrant_remittance,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.06795374986740214,0.25166919058663395,0.0,0.0,0.0,0.0,1.0
+uzb_external_household_remittance,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.00040309748594462714,0.02007345379035705,0.0,0.0,0.0,0.0,1.0
+uzb_total_remittance_original,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,3187,43948,ADEQUATE,856167.7866331973,2052352.1136140118,500.0,300.0,700000.0,16.0,23000000.0
+uzb_work_loss_shock,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.004582581945475761,0.06754020037873307,0.0,0.0,0.0,0.0,1.0
+uzb_major_health_or_death_shock,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.008825713376471837,0.09353077437164242,0.0,0.0,0.0,0.0,1.0
+uzb_any_verified_shock,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.013323432693327676,0.11465686957098639,0.0,0.0,0.0,0.0,1.0
+uzb_service_disruption,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.051490399915137375,0.220998133042161,0.0,0.0,0.0,0.0,1.0
+uzb_fies_raw_score,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,0.731876524875358,1.6047163874408867,0.0,0.0,0.0,0.0,8.0
+round,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,65.38771613450727,9.939823487722006,65.0,57.0,74.0,49.0,82.0
+interview_month,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,6.398514903999152,3.558136647673201,6.0,3.0,10.0,1.0,12.0
+l2cu_roster_match,47135,,unweighted; popw not used,,Uzbekistan primary household-rounds,47135,0,ADEQUATE,1.0,0.0,1.0,1.0,1.0,1.0,1.0

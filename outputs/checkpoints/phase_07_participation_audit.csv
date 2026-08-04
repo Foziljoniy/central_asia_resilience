@@ -1,0 +1,5 @@
+measure,mean,median,min,max,group0,group1
+eligible_rounds_per_household,23.5675,34.0,1,34,,
+mean_next_observed_by_uzb_any_remittance,,,,,0.9542297620403052,0.9521739130434783
+mean_next_observed_by_uzb_any_verified_shock,,,,,0.9542004429440729,0.945859872611465
+mean_next_observed_by_uzb_fies_raw_score,,,,,,0.9630078835657975

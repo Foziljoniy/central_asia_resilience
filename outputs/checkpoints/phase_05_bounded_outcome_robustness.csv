@@ -1,0 +1,11 @@
+country,model_id,model_family,interaction_log_coefficient,clustered_se,ci_lower,ci_upper,p_value,observations,clusters,raw_interaction_note,group,prediction,method,weight_status
+Kyrgyzstan,KG_POISSON_M2,Poisson count model with household-clustered sandwich covariance,-0.18755079506638364,0.17621833057445926,-0.5329323764080972,0.15783078627532995,0.2871886397587442,6297,2215,Do not interpret raw nonlinear interaction coefficient alone.,,,,
+Kyrgyzstan,KG_POISSON_M2,,,,1.1301850319960765,1.3554129226347857,,6297,2215,,"No remittance, no shock",1.242798977315431,Poisson observed-value standardization,unweighted
+Kyrgyzstan,KG_POISSON_M2,,,,0.8554445415739942,1.211330045940789,,6297,2215,,"Remittance, no shock",1.0333872937573916,Poisson observed-value standardization,unweighted
+Kyrgyzstan,KG_POISSON_M2,,,,1.241127576718706,1.6944931890513495,,6297,2215,,"No remittance, shock",1.4678103828850277,Poisson observed-value standardization,unweighted
+Kyrgyzstan,KG_POISSON_M2,,,,0.7616957493056907,1.261835454545615,,6297,2215,,"Remittance, shock",1.011765601925653,Poisson observed-value standardization,unweighted
+Uzbekistan,UZ_POISSON_M2,Poisson count model with household-clustered sandwich covariance,-1.3902581842186092,0.9969848110982464,-3.3443125071046413,0.5637961386674228,0.16317790968781942,47135,2000,Do not interpret raw nonlinear interaction coefficient alone.,,,,
+Uzbekistan,UZ_POISSON_M2,,,,0.6802911022525824,0.7955771295802248,,47135,2000,,"No remittance, no work-loss shock",0.7379341159164036,Poisson observed-value standardization,unweighted; popw not used
+Uzbekistan,UZ_POISSON_M2,,,,0.4900421007728742,0.6918044826274914,,47135,2000,,"Remittance, no work-loss shock",0.5909232917001828,Poisson observed-value standardization,unweighted; popw not used
+Uzbekistan,UZ_POISSON_M2,,,,1.1936919803645327,1.8109433633708985,,47135,2000,,"No remittance, work-loss shock",1.5023176718677156,Poisson observed-value standardization,unweighted; popw not used
+Uzbekistan,UZ_POISSON_M2,,,,-0.2894515814587205,0.8885853983574753,,47135,2000,,"Remittance, work-loss shock",0.2995669084493774,Poisson observed-value standardization,unweighted; popw not used

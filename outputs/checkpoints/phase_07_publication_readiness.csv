@@ -1,0 +1,20 @@
+item,rating,evidence,limitation,required_action,required_before_manuscript_drafting,required_before_journal_submission
+research question,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+contribution,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+data documentation,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+outcome validity,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+exposure validity,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+sample adequacy,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+primary inference,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+robustness,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+fixed-effects qualification,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+weights,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Report limitation.,0,1
+attrition,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Report limitation.,0,1
+missing data,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+literature review,REQUIRES REVISION,Phase 7 audit,See Phase 7 report,Resolve before journal submission.,0,1
+tables,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+figures,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+reproducibility,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+limitations,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+policy wording,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1
+data-use compliance,READY WITH LIMITATIONS,Phase 7 audit,See Phase 7 report,Proceed with stated limitation.,0,1

@@ -1,0 +1,12 @@
+{
+  "joint": "42 OBSERVATIONS; 38 HOUSEHOLDS",
+  "cell": "ADEQUATE",
+  "model": "UZBROAD_M2",
+  "interaction": "-0.5406; [-1.0415, -0.0398]; 0.03437",
+  "fe": "-0.1771; [-0.5515, 0.1973]; 0.3539",
+  "bounded": "CONSISTENT",
+  "influence": "GENERALLY STABLE",
+  "direction": "CONSISTENT",
+  "decision": "PRIMARY APPROVED WITH LIMITATIONS",
+  "recommended": "PROCEED"
+}

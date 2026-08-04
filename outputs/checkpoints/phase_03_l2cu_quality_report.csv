@@ -1,0 +1,9 @@
+﻿dataset,metric,variable,value,notes
+l2cu_r49_82_household_analysis,rows,,48925,
+l2cu_r49_82_household_analysis,columns,,52,
+l2cu_r49_82_household_analysis,unique_keys,uzb_household_round_key,48925,
+l2cu_r49_82_household_analysis,duplicate_keys,uzb_household_round_key,0,
+l2cu_r49_82_household_analysis,missing_keys,uzb_household_round_key,0,
+l2cu_r49_82_household_analysis,missing_count,uzb_fies_raw_score,0,aggregate missingness only
+l2cu_r49_82_household_analysis,missing_count,uzb_any_remittance,1790,aggregate missingness only
+l2cu_r49_82_household_analysis,missing_count,uzb_work_loss_shock,1383,aggregate missingness only

@@ -1,0 +1,5 @@
+﻿source_variable,source_label,target_variable,included_in_primary_shock,included_in_secondary_shock,excluded_reason,verification_source
+work_lost_hh,Any household member lost job/stopped working over past month,uzb_work_loss_shock,1,1,,L2CU questionnaire p. 6
+change_important_type,"Major illness, major injury, death",uzb_major_health_or_death_shock,0,1,,L2CU questionnaire and Phase 2 registry
+water_disruption/gas_disruption/heat_disruption,service disruption,uzb_service_disruption,0,0,retained separately; not climate/agricultural shock,Phase 2 registry
+economic_challenge,national economic challenge opinion,excluded,0,0,not household shock,Phase 2 registry

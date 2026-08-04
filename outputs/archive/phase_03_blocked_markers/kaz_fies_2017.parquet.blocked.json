@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "reason": "No Parquet engine is installed. pyarrow/fastparquet installation was not approved.",
+  "intended_path": "data/processed/kazakhstan/kaz_fies_2017.parquet",
+  "rows_constructed_in_memory": 1000,
+  "columns_constructed_in_memory": 29,
+  "key": "kaz_respondent_year_key",
+  "respondent_level_data_written": false
+}

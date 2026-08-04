@@ -1,0 +1,5 @@
+model_id,group,remittance,shock,estimate,standard_error,ci_lower,ci_upper,observations,clusters,method,weight_status
+KG_M2,"No remittance, no shock",0,0,1.240058723953128,0.0568692675734388,1.1285970076820162,1.3515204402242398,6297,2215,observed-value standardization,unweighted
+KG_M2,"Remittance, no shock",1,0,0.9826306779854428,0.1177197362679297,0.7519042346307471,1.2133571213401388,6297,2215,observed-value standardization,unweighted
+KG_M2,"No remittance, shock",0,1,1.4494131120253455,0.1088331925612979,1.236103974282689,1.662722249768002,6297,2215,observed-value standardization,unweighted
+KG_M2,"Remittance, shock",1,1,0.9779798918234818,0.1534754767210337,0.6771734849401402,1.2787862987068237,6297,2215,observed-value standardization,unweighted

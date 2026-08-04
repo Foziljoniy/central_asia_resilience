@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "reason": "No Parquet engine is installed. pyarrow/fastparquet installation was not approved.",
+  "intended_path": "data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet",
+  "rows_constructed_in_memory": 48925,
+  "columns_constructed_in_memory": 52,
+  "key": "uzb_household_round_key",
+  "respondent_level_data_written": false
+}

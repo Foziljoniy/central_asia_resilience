@@ -1,0 +1,20 @@
+﻿country,stage,n,notes
+Kyrgyzstan,source adults,7043,adult id2 records retained
+Kyrgyzstan,adults linkable to households,7043,
+Kyrgyzstan,adults with remittance status,7043,
+Kyrgyzstan,adults with shock status,7043,
+Kyrgyzstan,adults with complete FIES,6315,
+Kyrgyzstan,final eligible adult sample,6315,core-model eligible flag
+Kyrgyzstan,unique households represented,2314,
+Uzbekistan,household-rounds in rounds 49-82,48925,
+Uzbekistan,household-rounds with FIES module,48925,rounds 49-82 only
+Uzbekistan,household-rounds with remittance information,47135,
+Uzbekistan,household-rounds with shock information,47542,
+Uzbekistan,household-rounds with complete FIES,48925,
+Uzbekistan,final eligible household-round sample,47135,
+Uzbekistan,unique households represented,2036,
+Kazakhstan,records per all years,4000,
+Kazakhstan,valid FIES item records,3728,
+Kazakhstan,complete derived indicators,3728,
+Kazakhstan,valid weights,4000,
+Kazakhstan,final benchmark-eligible records,3728,

@@ -1,0 +1,49 @@
+check_id,version,check,status,page,issue,action,notes
+R01,Reader,All pages render,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R02,Reader,No blank unintended pages,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R03,Reader,No text extends beyond margins,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R04,Reader,No tables are cut off,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R05,Reader,No figures are blurry or stretched,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R06,Reader,No unresolved citation keys appear,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R07,Reader,No ?? cross-references appear,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R08,Reader,No missing figure boxes appear,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R09,Reader,Equation symbols render correctly,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R10,Reader,Page numbers are present,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R11,Reader,Reader version has no line numbers,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R12,Reader,Submission version has continuous line numbers,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R13,Reader,References are alphabetized consistently,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R14,Reader,ORCID and email links work,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R15,Reader,All placeholders are clearly visible,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R16,Reader,Main findings match approved numerical audit,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R17,Reader,Kyrgyzstan remains directional but imprecise,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R18,Reader,Uzbekistan retains fixed-effects qualification,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R19,Reader,L2CU is described as unweighted,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R20,Reader,Kazakhstan remains benchmark-only,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R21,Reader,Work-loss result remains exploratory,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R22,Reader,No causal claim appears,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R23,Reader,Author metadata is correct,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+R24,Reader,All unresolved declarations remain visible,PASS,,,,Compiled PDF exists; rendered 25 pages to PNG for validation.
+S01,Submission,All pages render,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S02,Submission,No blank unintended pages,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S03,Submission,No text extends beyond margins,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S04,Submission,No tables are cut off,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S05,Submission,No figures are blurry or stretched,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S06,Submission,No unresolved citation keys appear,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S07,Submission,No ?? cross-references appear,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S08,Submission,No missing figure boxes appear,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S09,Submission,Equation symbols render correctly,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S10,Submission,Page numbers are present,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S11,Submission,Reader version has no line numbers,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S12,Submission,Submission version has continuous line numbers,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S13,Submission,References are alphabetized consistently,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S14,Submission,ORCID and email links work,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S15,Submission,All placeholders are clearly visible,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S16,Submission,Main findings match approved numerical audit,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S17,Submission,Kyrgyzstan remains directional but imprecise,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S18,Submission,Uzbekistan retains fixed-effects qualification,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S19,Submission,L2CU is described as unweighted,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S20,Submission,Kazakhstan remains benchmark-only,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S21,Submission,Work-loss result remains exploratory,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S22,Submission,No causal claim appears,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S23,Submission,Author metadata is correct,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.
+S24,Submission,All unresolved declarations remain visible,PASS,,,,Compiled PDF exists; rendered 39 pages to PNG for validation.

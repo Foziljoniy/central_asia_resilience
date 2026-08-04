@@ -1,0 +1,5 @@
+﻿expected_file,actual_file_used,reason,validation_status,notes
+outputs/checkpoints/PHASE_02_REVISED_RESEARCH_DESIGN.md,outputs/checkpoints/REVISED_PHASE_02_AUDIT.md,Exact prompt-named file absent; approved Revised Phase 2 audit contains frozen decision.,ACCEPTED BY SUPERVISOR,Phase 2 was not repeated.
+research/harmonization_dictionary.csv,research/phase_03_variable_specification.csv,Exact harmonization file absent; Phase 3 specification was created from approved registries.,ACCEPTED BY SUPERVISOR,No definitions changed in technical revision.
+outputs/checkpoints/phase_02_lik_verified_variables.csv,outputs/checkpoints/revised_phase_02_variable_registry.csv,Exact LiK file absent; revised registry includes LiK verified variables.,ACCEPTED BY SUPERVISOR,
+outputs/checkpoints/phase_02_l2cu_variable_candidates.csv,outputs/checkpoints/revised_phase_02_variable_registry.csv,Exact L2CU file absent; revised registry includes L2CU verified variables.,ACCEPTED BY SUPERVISOR,

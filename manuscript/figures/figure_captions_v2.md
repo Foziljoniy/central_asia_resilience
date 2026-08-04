@@ -1,0 +1,9 @@
+# Figure captions v2
+
+**Figure 1. Conceptual framework: remittances as an observational moderator of household shocks and food insecurity.** The figure should show shocks, food-insecurity raw scores and remittance receipt as a moderating household characteristic. Title and note should state that the framework is non-causal.
+
+**Figure 2. Kyrgyzstan adjusted food-insecurity predictions by remittance and shock status.** Use `outputs/figures/figure_19_kyrgyzstan_adjusted_four_groups_v2.png`. Point-range plot; full category labels; y-axis labelled "Predicted food-insecurity raw score"; model KG_M2; adult respondent unit; 6,297 observations; 2,215 household clusters; household-clustered 95% confidence intervals; unweighted.
+
+**Figure 3. Uzbekistan adjusted food-insecurity predictions by remittance and verified-shock status.** Use `outputs/figures/figure_20_uzbekistan_adjusted_four_groups_v2.png` or the approved broad-shock successor figure if the file-name registry points to `figure_25_uzbekistan_broad_shock_predictions.png`. Point-range plot; full category labels; y-axis labelled "Predicted food-insecurity raw score"; model UZBROAD_M2; household-round unit; 47,135 observations; 2,000 household clusters; household-clustered 95% confidence intervals; unweighted because `popw` is not approved.
+
+**Figure 4. Standardized remittance–shock interaction associations.** Use `outputs/figures/figure_23_standardized_interaction_comparison_v2.png` or the approved standardized successor figure if the file-name registry points to `figure_26_revised_standardized_interactions.png`. Point-range plot; title exactly "Standardized remittance–shock interaction associations"; y-axis labelled "Standardized interaction estimate"; include a zero reference line; do not truncate confidence intervals; note that countries differ in survey unit, recall period and shock definition.

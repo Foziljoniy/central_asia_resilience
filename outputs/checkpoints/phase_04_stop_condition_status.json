@@ -1,0 +1,19 @@
+{
+  "administrative_closeout": "COMPLETE",
+  "input_validation": "PASS",
+  "kg_sample": "6315 ADULTS; 2221 HOUSEHOLDS",
+  "uz_sample": "47135 HOUSEHOLD-ROUNDS; 2000 HOUSEHOLDS",
+  "kaz_sample": "3728 RECORDS; 2014, 2015, 2016, 2017",
+  "kg_cells": "ALL ADEQUATE",
+  "uz_cells": "ALL ADEQUATE",
+  "fies_quality": "ACCEPTABLE WITH WARNINGS",
+  "kaz_benchmark": "FULL",
+  "kg_ready": "READY WITH LIMITATIONS",
+  "uz_ready": "READY WITH LIMITATIONS",
+  "critical": [
+    "L2CU results remain unweighted because popw interpretation is not approved.",
+    "Kazakhstan supplied probabilities are reported as mean supplied probabilities pending supervisor wording.",
+    "LiK household summaries remain sensitivity-only."
+  ],
+  "recommended": "PROCEED"
+}

@@ -1,0 +1,15 @@
+﻿concept,kyrgyzstan_variable,uzbekistan_variable,kazakhstan_variable,observation_level,reference_period,response_scale,direction,missing_rule,used_in_main_model,used_as_benchmark,comparability_status,comparison_method,limitations
+food-insecurity raw score,lik_fies_raw_score,uzb_fies_raw_score,kaz_raw_score,adult / household-round / adult-year,LiK/Kaz 12 months; L2CU 30 days,0-8,higher=worse,complete items only,KG+UZ,KAZ,moderate,"country-specific, benchmark only",Recall and respondent level differ.
+remittance receipt,lik_remittance_receipt,uzb_any_remittance,NOT AVAILABLE,household / household-round,12 months / past month,binary,1=receipt,structural rules documented,KG+UZ,no,conceptual only,country-specific,Kazakhstan unavailable.
+household shock,lik_any_shock,uzb_any_verified_shock,NOT AVAILABLE,household / household-round,12 months / past month,binary,1=shock,missing preserved,KG+UZ,no,conceptual only,country-specific,Shock modules differ.
+employment shock,lik_employment_shock,uzb_work_loss_shock,NOT AVAILABLE,household / household-round,12 months / past month,binary,1=shock,missing preserved,KG+UZ,no,moderate,country-specific,
+health shock,lik_health_shock,uzb_major_health_or_death_shock,NOT AVAILABLE,household / household-round,12 months / past month,binary,1=shock,missing preserved,KG+UZ,no,conceptual only,country-specific,
+agricultural shock,lik_agricultural_shock,NOT AVAILABLE,NOT AVAILABLE,household,12 months,binary,1=shock,missing preserved,sensitivity KG only,no,unavailable,not compared,
+climate shock,lik_climate_shock,NOT AVAILABLE,NOT AVAILABLE,household,12 months,binary,1=shock,missing preserved,sensitivity KG only,no,unavailable,not compared,
+age,h103a,not primary household control,kaz_age,adult / adult-year,current,numeric,age,missing preserved,control,benchmark,conceptual only,not pooled,
+sex,h102,not primary household control,kaz_gender,adult / adult-year,categorical,categorical,not directional,missing preserved,control,benchmark,conceptual only,not pooled,
+household size,lik_household_size,hhsize,N_adults + N_child,household,current,count,higher=larger,missing preserved,control,benchmark,moderate,country-specific,
+rural or Area,residence,NOT AVAILABLE,kaz_area,household/adult-year,current,categorical,not directional,missing preserved,control,benchmark,conceptual only,do not rank,L2CU unavailable.
+region,oblast,NOT AVAILABLE,NOT AVAILABLE,household,current,categorical,not directional,missing preserved,control KG only,no,unavailable,not compared,
+survey weight,no weight,uzb_popw_unverified,kaz_weight_original; kaz_weight_mean1_within_year,survey,not applicable,numeric,weight,missing preserved,not activated,benchmark later,blocked,approval required,L2CU weight unverified; Kazakhstan original weight approved year-specific only; pooled primary estimates not approved.
+time,survey_year,round,survey_year,country-specific,varies,year/round,time,missing preserved,control,benchmark,conceptual only,not pooled,

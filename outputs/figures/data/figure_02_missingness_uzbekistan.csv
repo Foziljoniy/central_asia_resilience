@@ -1,0 +1,17 @@
+country,context,variable_group,variables,denominator_values,missing_values,missing_rate,structural_missingness,ordinary_nonresponse_note,weight_status
+Uzbekistan,overall,outcome_items,uzb_fies_item_1;uzb_fies_item_2;uzb_fies_item_3;uzb_fies_item_4;uzb_fies_item_5;uzb_fies_item_6;uzb_fies_item_7;uzb_fies_item_8,391400,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,raw_score,uzb_fies_raw_score,48925,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,remittance_receipt,uzb_any_remittance,48925,1790,0.03658661216147164,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,remittance_amount,uzb_total_remittance_original,48925,45738,0.9348594787940726,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,primary_shock,uzb_any_verified_shock,48925,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,secondary_shocks,uzb_work_loss_shock;uzb_major_health_or_death_shock;uzb_service_disruption,146775,1383,0.009422585590189065,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,household_size,hhsize,48925,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,age,,48925,48925,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,sex,,48925,48925,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,education,,48925,48925,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,children,l2cu_roster_member_count,48925,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,welfare_assets,wage_amount;aginc_amount;selfempinc_amount;otherinc_amount,195700,147390,0.753142565150741,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,location_variables,,48925,48925,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,weight_variables,uzb_popw_unverified,48925,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,round_or_year,round,48925,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Uzbekistan,overall,merge_quality_flags,l2cu_roster_match;uzb_remittance_merge_quality,97850,1383,0.014133878385283597,,Not tested; structural non-administration is not respondent refusal.,unweighted

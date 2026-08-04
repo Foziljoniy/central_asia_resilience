@@ -1,0 +1,5 @@
+﻿variable,household_rounds,household_rounds_nonmissing,household_rounds_inconsistent,max_distinct_values_within_household_round
+mig_living_hh,118907,118907,0,1
+remittance_hh,118907,118907,0,1
+remittance_hh_amount,118907,89,0,1
+work_lost_hh,118907,118907,0,1

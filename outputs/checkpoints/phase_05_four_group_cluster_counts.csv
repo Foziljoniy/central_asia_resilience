@@ -1,0 +1,9 @@
+country,group,remittance,shock,observations,unique_households,small_cell_status
+Kyrgyzstan,"No remittance, no any shock",0,0,4131,1447,ADEQUATE
+Kyrgyzstan,"Remittance, no any shock",1,0,760,281,ADEQUATE
+Kyrgyzstan,"No remittance, any shock",0,1,1106,381,ADEQUATE
+Kyrgyzstan,"Remittance, any shock",1,1,318,112,ADEQUATE
+Uzbekistan,"No remittance, no work-loss shock",0,0,43709,1995,ADEQUATE
+Uzbekistan,"Remittance, no work-loss shock",1,0,3210,480,ADEQUATE
+Uzbekistan,"No remittance, work-loss shock",0,1,206,169,ADEQUATE
+Uzbekistan,"Remittance, work-loss shock",1,1,10,9,SMALL

@@ -1,0 +1,13 @@
+model_id,group,remittance,shock,predicted_outcome,standard_error,ci_lower,ci_upper,observations,clusters,method,weight_status
+UZ_M0,"No remittance, no work-loss shock",0,0,0.7402594431352804,0.029807367103848157,0.681838077137774,0.7986808091327867,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M0,"Remittance, no work-loss shock",1,0,0.5629283489096574,0.04965312618737928,0.4656100098625714,0.6602466879567433,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M0,"No remittance, work-loss shock",0,1,1.6067961165048532,0.16893739943633623,1.275684897967777,1.9379073350419294,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M0,"Remittance, work-loss shock",1,1,0.2999999999999982,0.2878310159857355,-0.26413842496561596,0.8641384249656123,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M1,"No remittance, no work-loss shock",0,0,0.7374731979167405,0.0294406862051539,0.6797705132744937,0.7951758825589873,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M1,"Remittance, no work-loss shock",1,0,0.6008198570045293,0.05047512105765224,0.5018904376162316,0.699749276392827,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M1,"No remittance, work-loss shock",0,1,1.6057399335449307,0.1684385172634678,1.2756065060992057,1.9358733609906558,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M1,"Remittance, work-loss shock",1,1,0.33698249627559446,0.29168685523260857,-0.23471323474406697,0.9086782272952558,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M2,"No remittance, no work-loss shock",0,0,0.7379853610450664,0.029446140277631223,0.6802719866171949,0.7956987354729379,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M2,"Remittance, no work-loss shock",1,0,0.5973973287829871,0.049882414378662636,0.4996295931389054,0.6951650644270688,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M2,"No remittance, work-loss shock",0,1,1.5522103069401005,0.16707195338696695,1.2247552954748906,1.8796653184053105,47135,2000,observed-value standardization,unweighted; popw not used
+UZ_M2,"Remittance, work-loss shock",1,1,0.2997105458316531,0.3316604467479079,-0.3503319848907109,0.949753076554017,47135,2000,observed-value standardization,unweighted; popw not used

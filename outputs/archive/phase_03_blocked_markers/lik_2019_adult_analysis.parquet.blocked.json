@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "reason": "No Parquet engine is installed. pyarrow/fastparquet installation was not approved.",
+  "intended_path": "data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet",
+  "rows_constructed_in_memory": 7043,
+  "columns_constructed_in_memory": 54,
+  "key": "lik_adult_analysis_key",
+  "respondent_level_data_written": false
+}

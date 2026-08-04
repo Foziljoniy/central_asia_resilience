@@ -1,0 +1,5 @@
+check,interaction,clustered_se,ci_lower,ci_upper,p_value,households,robust_se,beta_min,beta_max,beta_median,sign_consistency,status,observations
+KG_M2_clustered_finite_sample,-0.21400517423417853,0.22497505426854736,-0.6549481780204756,0.22693782955211844,0.34148277472323674,2215,,,,,,,
+KG_M2_conventional_robust,-0.21400517423417853,,-0.5321219248491054,0.1041115763807483,,,0.16230744703687985,,,,,,
+leave_one_high_leverage_cluster_top20,,,,,,,,-0.24488330376917058,-0.20916827769224522,-0.2145980082794347,1,,
+exclude_structural_zero_remittance_cases,,,,,,,,,,,,COMPLETED,1383

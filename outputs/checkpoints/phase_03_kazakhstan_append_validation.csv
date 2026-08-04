@@ -1,0 +1,5 @@
+﻿check,result,status,notes
+expected_records,4000,PASS,Four substantive yearly samples only; format duplicates not appended.
+unique_respondent_year_keys,4000,PASS,
+identical_target_variables,verified,PASS,Same standardized columns across all yearly frames.
+weights_retained_not_rescaled,kaz_weight_pooling_approved=0,PASS,Pooled-year normalization is Phase 4 decision.

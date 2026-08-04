@@ -1,0 +1,6 @@
+section,claim,source_file,source_row_or_model,manuscript_value,source_value,match,action
+Abstract,-0.214,phase_06_claims_register.csv,KG_M2,-0.214,-0.214,PASS,
+Abstract,-0.541,phase_06_claims_register.csv,UZBROAD_M2,-0.541,-0.541,PASS,
+Results,"47,135",phase_05_revision_interaction_contrasts.csv,UZBROAD_M2,47135,47135,PASS,
+Results,42,phase_05_revision_broad_shock_cells.csv,joint cell,42,42,PASS,
+Results,10,phase_05_four_group_cluster_counts.csv,work-loss joint cell,10,10,PASS,

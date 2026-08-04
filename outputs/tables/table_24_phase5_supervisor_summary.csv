@@ -1,0 +1,5 @@
+item,value,supervisor_note
+Uzbekistan remittance plus work-loss cell,10 observations; 9 households,Adequate by n>=30 rule but rare and influential-sensitivity review is warranted.
+Uzbekistan FE interaction,"-0.6352 [-1.0196, -0.2509], p=0.001198",Within-household robustness; observational and not a causal design.
+Influence sensitivity,GENERALLY STABLE,"Based on household-equal, one-round-per-household, and leave-one-high-leverage-cluster-out checks."
+Bounded outcome robustness,CONSISTENT,"Poisson predictions are interpreted, not raw nonlinear interaction alone."

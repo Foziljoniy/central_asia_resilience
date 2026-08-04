@@ -1,0 +1,219 @@
+{
+  "execution_timestamp_utc": "2026-07-26T00:14:19.747652+00:00",
+  "input_file_paths": [
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh0.dta",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh1a.dta",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh6a.dta",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh6b.dta",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh7.dta",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Individual/id1.dta",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Individual/id2.dta",
+    "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_household_data_82.csv",
+    "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_individual_data_82.csv",
+    "data/kazakhstan/KAZ_2014_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2014_FIES_v01_EN_M_v01_A_OCS.sav",
+    "data/kazakhstan/KAZ_2015_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2015_FIES_v01_EN_M_v01_A_OCS.sav",
+    "data/kazakhstan/KAZ_2016_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2016_FIES_v01_EN_M_v01_A_OCS.sav",
+    "data/kazakhstan/KAZ_2017_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2017_FIES_v01_EN_M_v01_A_OCS.sav"
+  ],
+  "input_sha256_checksums_before": {
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh0.dta": "4655d42ad60df3e925816a0bd1e2c48b12f4b05c1c646af1b810c21a357359a1",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh1a.dta": "f17b6eed1feef8546f497db91dea586712b991d4514dd7ad395354019acce165",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh6a.dta": "c8ce6ec11f765423c0d44d0dac82d3df7404e4db5cb460e2ed2f7d803c838c68",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh6b.dta": "948ef997c6366a56cd9f533381c62840ed32ed4a1a62a6e3597ef03d7d2576e3",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh7.dta": "179dc9fc493e284f9d147ba13de4a614925192561e86655552359f0afa385339",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Individual/id1.dta": "54a0b42f21e609149a1db58af05a4ff29378b2409e5e1335817a1c9e45df6a9a",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Individual/id2.dta": "65cd47790e4c6fed28ca2c0ab7003ed1b58a98411486dc08cfa650c860e6af0b",
+    "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_household_data_82.csv": "6ffd0783ca4f62ecc7bb6827eaf68d96875588c9ef9f8073ae209610271301fc",
+    "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_individual_data_82.csv": "12a57330aa933ebfeb76234484d56654204116f1cfd6e8d71b4ba4416b464ae1",
+    "data/kazakhstan/KAZ_2014_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2014_FIES_v01_EN_M_v01_A_OCS.sav": "4bad7043de9cf2e0f869f39f132a763ee4be5a6c4f222b4de0f3b5d9babc9301",
+    "data/kazakhstan/KAZ_2015_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2015_FIES_v01_EN_M_v01_A_OCS.sav": "0749429f18eaa460016546f964a3d0fb06d02f649537e9245242c5f9bbb0ddb1",
+    "data/kazakhstan/KAZ_2016_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2016_FIES_v01_EN_M_v01_A_OCS.sav": "9d5c90ed6f88c13a51984ebb0621f0bfff989e740b8193d264c5f7d1b5dcb264",
+    "data/kazakhstan/KAZ_2017_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2017_FIES_v01_EN_M_v01_A_OCS.sav": "f72b225f8377f1036b6e44ecd55d7c8c22bfaa5e4265f1e315d3dd0020acf0e3"
+  },
+  "input_sha256_checksums_after": {
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh0.dta": "4655d42ad60df3e925816a0bd1e2c48b12f4b05c1c646af1b810c21a357359a1",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh1a.dta": "f17b6eed1feef8546f497db91dea586712b991d4514dd7ad395354019acce165",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh6a.dta": "c8ce6ec11f765423c0d44d0dac82d3df7404e4db5cb460e2ed2f7d803c838c68",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh6b.dta": "948ef997c6366a56cd9f533381c62840ed32ed4a1a62a6e3597ef03d7d2576e3",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Household/hh7.dta": "179dc9fc493e284f9d147ba13de4a614925192561e86655552359f0afa385339",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Individual/id1.dta": "54a0b42f21e609149a1db58af05a4ff29378b2409e5e1335817a1c9e45df6a9a",
+    "data/interim/unpacked/kyrgyzstan/dataverse_files/depth_02/LiK_2022__7c67a235/Version_2022/Individual/id2.dta": "65cd47790e4c6fed28ca2c0ab7003ed1b58a98411486dc08cfa650c860e6af0b",
+    "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_household_data_82.csv": "6ffd0783ca4f62ecc7bb6827eaf68d96875588c9ef9f8073ae209610271301fc",
+    "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_individual_data_82.csv": "12a57330aa933ebfeb76234484d56654204116f1cfd6e8d71b4ba4416b464ae1",
+    "data/kazakhstan/KAZ_2014_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2014_FIES_v01_EN_M_v01_A_OCS.sav": "4bad7043de9cf2e0f869f39f132a763ee4be5a6c4f222b4de0f3b5d9babc9301",
+    "data/kazakhstan/KAZ_2015_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2015_FIES_v01_EN_M_v01_A_OCS.sav": "0749429f18eaa460016546f964a3d0fb06d02f649537e9245242c5f9bbb0ddb1",
+    "data/kazakhstan/KAZ_2016_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2016_FIES_v01_EN_M_v01_A_OCS.sav": "9d5c90ed6f88c13a51984ebb0621f0bfff989e740b8193d264c5f7d1b5dcb264",
+    "data/kazakhstan/KAZ_2017_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2017_FIES_v01_EN_M_v01_A_OCS.sav": "f72b225f8377f1036b6e44ecd55d7c8c22bfaa5e4265f1e315d3dd0020acf0e3"
+  },
+  "raw_source_checksums_unchanged": true,
+  "processed_file_paths": [
+    "data/processed/kazakhstan/kaz_fies_2014.parquet",
+    "data/processed/kazakhstan/kaz_fies_2014_2017_benchmark.parquet",
+    "data/processed/kazakhstan/kaz_fies_2014_2017_data_dictionary.csv",
+    "data/processed/kazakhstan/kaz_fies_2015.parquet",
+    "data/processed/kazakhstan/kaz_fies_2016.parquet",
+    "data/processed/kazakhstan/kaz_fies_2017.parquet",
+    "data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet",
+    "data/processed/kyrgyzstan/lik_2019_data_dictionary.csv",
+    "data/processed/kyrgyzstan/lik_2019_household_sensitivity.parquet",
+    "data/processed/uzbekistan/l2cu_r49_82_data_dictionary.csv",
+    "data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet"
+  ],
+  "processed_sha256_checksums": {
+    "data/processed/kazakhstan/kaz_fies_2014.parquet": "fda304e076a796dc23cac4dabd81ac7b9f75f88e1ddb61d7e5d40ddb87aba916",
+    "data/processed/kazakhstan/kaz_fies_2014_2017_benchmark.parquet": "0fa08e7d3041611c5583dab4f6070ee4b0d63b03df093ebff995b4a68d4d68ce",
+    "data/processed/kazakhstan/kaz_fies_2014_2017_data_dictionary.csv": "33b42a2a6369f3789296eed0f6bdef5fe9b06fc33ad3b7f4be02300d5dd52b3a",
+    "data/processed/kazakhstan/kaz_fies_2015.parquet": "83a4e37d0425bcf116a24c2a7ad34c82a6e04b6aedfe11135e23ff027ce8d6e0",
+    "data/processed/kazakhstan/kaz_fies_2016.parquet": "345f259dc3cb4eef099905838292f93881752ebd211914b385fd6ab81d21d712",
+    "data/processed/kazakhstan/kaz_fies_2017.parquet": "3d9b48ff8999840d69b1d7d381f474769b91ef86da390e9eca7190975df0de43",
+    "data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet": "234cf707a8f170b0b148a047ce119f150f34089ea372fd79ce636f6fb6454c4c",
+    "data/processed/kyrgyzstan/lik_2019_data_dictionary.csv": "6f906262ec68cc8625c54367fc41b8bd9ed199b7e47a97b07a25a31eec972a0d",
+    "data/processed/kyrgyzstan/lik_2019_household_sensitivity.parquet": "7d05e9564619eabaaf52ac524990b5d40e870e53fa90792822a9dfff4d1d1548",
+    "data/processed/uzbekistan/l2cu_r49_82_data_dictionary.csv": "65359b1c25d2609a6f1c4103c8e1a58efd6826bb0415bcac3d2e452e7501cc68",
+    "data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet": "9a0471e21fb0872eb6a7aae62ba2c6a32c328a5cbd1b1085e233303911cb7abc"
+  },
+  "script_names": [
+    "src/30_freeze_phase3_specification.py",
+    "src/31_build_lik_2019_analysis.py",
+    "src/32_build_l2cu_r49_82_analysis.py",
+    "src/33_build_kazakhstan_benchmark.py",
+    "src/34_validate_analytical_datasets.py",
+    "src/35_build_sample_flow.py",
+    "src/36_build_data_dictionaries.py",
+    "src/37_build_phase3_manifest.py",
+    "src/run_phase_03.py"
+  ],
+  "software_versions": {
+    "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas": "3.0.1",
+    "pyreadstat": "1.3.5",
+    "pyarrow": "25.0.0",
+    "parquet_engine_available": true
+  },
+  "row_counts": {
+    "lik_adult": 7043,
+    "lik_household_sensitivity": 2314,
+    "l2cu_household_round": 48925,
+    "kazakhstan_combined": 4000
+  },
+  "column_counts": {
+    "lik_adult": 54,
+    "l2cu_household_round": 52,
+    "kazakhstan_combined": 31
+  },
+  "key_definitions": {
+    "lik_adult": "lik_adult_analysis_key",
+    "l2cu": "uzb_household_round_key",
+    "kazakhstan": "kaz_respondent_year_key"
+  },
+  "random_seeds": "none",
+  "unresolved_decisions": [
+    "L2CU popw remains unapproved for analytical weighting.",
+    "Kazakhstan pooled prevalence is not approved; mean-1 weight is retained only for later sensitivity.",
+    "LiK household-level food-insecurity aggregation remains sensitivity-only.",
+    "Exact prompt-named Phase 2 files absent; revised Phase 2 approved outputs used instead."
+  ],
+  "raw_data_protection_status": "unchanged",
+  "dataset_write_status": {
+    "data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet",
+      "sha256": "234cf707a8f170b0b148a047ce119f150f34089ea372fd79ce636f6fb6454c4c",
+      "compression": "zstd",
+      "rows": 7043,
+      "columns": 54
+    },
+    "data/processed/kyrgyzstan/lik_2019_household_sensitivity.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/kyrgyzstan/lik_2019_household_sensitivity.parquet",
+      "sha256": "7d05e9564619eabaaf52ac524990b5d40e870e53fa90792822a9dfff4d1d1548",
+      "compression": "zstd",
+      "rows": 2314,
+      "columns": 12
+    },
+    "data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet",
+      "sha256": "9a0471e21fb0872eb6a7aae62ba2c6a32c328a5cbd1b1085e233303911cb7abc",
+      "compression": "zstd",
+      "rows": 48925,
+      "columns": 52
+    },
+    "data/processed/kazakhstan/kaz_fies_2014.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/kazakhstan/kaz_fies_2014.parquet",
+      "sha256": "fda304e076a796dc23cac4dabd81ac7b9f75f88e1ddb61d7e5d40ddb87aba916",
+      "compression": "zstd",
+      "rows": 1000,
+      "columns": 31
+    },
+    "data/processed/kazakhstan/kaz_fies_2015.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/kazakhstan/kaz_fies_2015.parquet",
+      "sha256": "83a4e37d0425bcf116a24c2a7ad34c82a6e04b6aedfe11135e23ff027ce8d6e0",
+      "compression": "zstd",
+      "rows": 1000,
+      "columns": 31
+    },
+    "data/processed/kazakhstan/kaz_fies_2016.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/kazakhstan/kaz_fies_2016.parquet",
+      "sha256": "345f259dc3cb4eef099905838292f93881752ebd211914b385fd6ab81d21d712",
+      "compression": "zstd",
+      "rows": 1000,
+      "columns": 31
+    },
+    "data/processed/kazakhstan/kaz_fies_2017.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/kazakhstan/kaz_fies_2017.parquet",
+      "sha256": "3d9b48ff8999840d69b1d7d381f474769b91ef86da390e9eca7190975df0de43",
+      "compression": "zstd",
+      "rows": 1000,
+      "columns": 31
+    },
+    "data/processed/kazakhstan/kaz_fies_2014_2017_benchmark.parquet": {
+      "status": "CREATED",
+      "path": "data/processed/kazakhstan/kaz_fies_2014_2017_benchmark.parquet",
+      "sha256": "0fa08e7d3041611c5583dab4f6070ee4b0d63b03df093ebff995b4a68d4d68ce",
+      "compression": "zstd",
+      "rows": 4000,
+      "columns": 31
+    }
+  },
+  "technical_revision": {
+    "pyarrow_version": "25.0.0",
+    "parquet_engine_validation": "outputs/checkpoints/phase_03_parquet_engine_validation.json",
+    "parquet_file_validation": "outputs/checkpoints/phase_03_parquet_file_validation.csv",
+    "phase2_input_mapping": "outputs/checkpoints/phase_03_phase2_input_mapping.csv",
+    "blocked_markers_archive": "outputs/archive/phase_03_blocked_markers/",
+    "parquet_paths": [
+      "data/processed/kazakhstan/kaz_fies_2014.parquet",
+      "data/processed/kazakhstan/kaz_fies_2014_2017_benchmark.parquet",
+      "data/processed/kazakhstan/kaz_fies_2015.parquet",
+      "data/processed/kazakhstan/kaz_fies_2016.parquet",
+      "data/processed/kazakhstan/kaz_fies_2017.parquet",
+      "data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet",
+      "data/processed/kyrgyzstan/lik_2019_household_sensitivity.parquet",
+      "data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet"
+    ],
+    "parquet_sha256": {
+      "data/processed/kazakhstan/kaz_fies_2014.parquet": "fda304e076a796dc23cac4dabd81ac7b9f75f88e1ddb61d7e5d40ddb87aba916",
+      "data/processed/kazakhstan/kaz_fies_2014_2017_benchmark.parquet": "0fa08e7d3041611c5583dab4f6070ee4b0d63b03df093ebff995b4a68d4d68ce",
+      "data/processed/kazakhstan/kaz_fies_2015.parquet": "83a4e37d0425bcf116a24c2a7ad34c82a6e04b6aedfe11135e23ff027ce8d6e0",
+      "data/processed/kazakhstan/kaz_fies_2016.parquet": "345f259dc3cb4eef099905838292f93881752ebd211914b385fd6ab81d21d712",
+      "data/processed/kazakhstan/kaz_fies_2017.parquet": "3d9b48ff8999840d69b1d7d381f474769b91ef86da390e9eca7190975df0de43",
+      "data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet": "234cf707a8f170b0b148a047ce119f150f34089ea372fd79ce636f6fb6454c4c",
+      "data/processed/kyrgyzstan/lik_2019_household_sensitivity.parquet": "7d05e9564619eabaaf52ac524990b5d40e870e53fa90792822a9dfff4d1d1548",
+      "data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet": "9a0471e21fb0872eb6a7aae62ba2c6a32c328a5cbd1b1085e233303911cb7abc"
+    }
+  },
+  "phase_04_administrative_closeout": {
+    "timestamp_utc": "2026-07-26T12:55:43.666507+00:00",
+    "kazakhstan_status": "Kazakhstan FIES access is granted. Kazakhstan is used as a K1+K2 food-insecurity trend and demographic benchmark. It is not part of the remittance-shock interaction model.",
+    "blocked_markers_found_in_processed": [],
+    "blocked_markers_archived": [],
+    "active_manifest_blocked_markers_removed": true,
+    "raw_checksums_unchanged": true
+  }
+}

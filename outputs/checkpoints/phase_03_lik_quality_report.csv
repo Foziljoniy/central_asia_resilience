@@ -1,0 +1,15 @@
+﻿dataset,metric,variable,value,notes
+lik_2019_adult_analysis,rows,,7043,
+lik_2019_adult_analysis,columns,,54,
+lik_2019_adult_analysis,unique_keys,lik_adult_analysis_key,7043,
+lik_2019_adult_analysis,duplicate_keys,lik_adult_analysis_key,0,
+lik_2019_adult_analysis,missing_keys,lik_adult_analysis_key,0,
+lik_2019_adult_analysis,missing_count,lik_fies_raw_score,728,aggregate missingness only
+lik_2019_adult_analysis,missing_count,lik_remittance_receipt,0,aggregate missingness only
+lik_2019_adult_analysis,missing_count,lik_any_shock,0,aggregate missingness only
+lik_2019_household_sensitivity,rows,,2314,
+lik_2019_household_sensitivity,columns,,12,
+lik_2019_household_sensitivity,unique_keys,lik_household_analysis_key,2314,
+lik_2019_household_sensitivity,duplicate_keys,lik_household_analysis_key,0,
+lik_2019_household_sensitivity,missing_keys,lik_household_analysis_key,0,
+lik_2019_household_sensitivity,missing_count,lik_hh_mean_adult_raw_score,93,aggregate missingness only

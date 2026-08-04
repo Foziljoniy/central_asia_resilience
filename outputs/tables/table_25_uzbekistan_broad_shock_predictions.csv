@@ -1,0 +1,13 @@
+model_id,group,remittance,shock,predicted_outcome,standard_error,ci_lower,ci_upper,observations,clusters,method,weight_status
+UZBROAD_M0,"No remittance, no verified shock",0,0,0.7365736573657379,0.029792196150315878,0.6781820258907659,0.7949652888407098,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M0,"Remittance, no verified shock",1,0,0.5604153555695419,0.049582892957855625,0.4632346711228402,0.6575960400162436,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M0,"No remittance, verified shock",0,1,1.3174061433447102,0.10095275597750797,1.1195423774887339,1.5152699092006865,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M0,"Remittance, verified shock",1,1,0.6904761904761908,0.23893204236336693,0.22217799269139316,1.1587743882609884,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M1,"No remittance, no verified shock",0,0,0.7338263913594929,0.029428159595106435,0.6761482584217875,0.7915045242971983,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M1,"Remittance, no verified shock",1,0,0.5985676707164895,0.050405852502829744,0.4997740152009051,0.6973613262320739,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M1,"No remittance, verified shock",0,1,1.312719844097876,0.10060305814558272,1.115541473397945,1.509898214797807,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M1,"Remittance, verified shock",1,1,0.7032000620538402,0.23995854650588122,0.23288995311973343,1.173510170987947,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M2,"No remittance, no verified shock",0,0,0.7344179641307182,0.029433799905637232,0.6767287763875108,0.7921071518739257,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M2,"Remittance, no verified shock",1,0,0.5962551983450264,0.04980516873543407,0.4986388613796353,0.6938715353104175,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M2,"No remittance, verified shock",0,1,1.2882399185611073,0.09930701040914547,1.093601754746838,1.4828780823753767,47135,2000,observed-value standardization,unweighted; popw not used
+UZBROAD_M2,"Remittance, verified shock",1,1,0.6094385610384991,0.24285415733635313,0.13345315916342326,1.0854239629135751,47135,2000,observed-value standardization,unweighted; popw not used

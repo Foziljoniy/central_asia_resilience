@@ -1,0 +1,35 @@
+{
+  "paper_title": "Do Remittances Buffer Household Shocks? Evidence on Food Insecurity in Kyrgyzstan and Uzbekistan",
+  "research_question": "Is the negative association between household shocks and food insecurity weaker among remittance-receiving households in Kyrgyzstan and Uzbekistan?",
+  "decision": "FULL TWO-COUNTRY DESIGN",
+  "kyrgyzstan_minimum_mechanism_verified": true,
+  "uzbekistan_minimum_mechanism_verified": true,
+  "minimum_mechanism": [
+    "remittance receipt",
+    "household shock exposure",
+    "food insecurity"
+  ],
+  "country_strategy": "country-specific models only; respondent records must not be pooled",
+  "l2cu_primary_food_rounds": "round 49 onward, subject to per-round completeness in coverage file",
+  "kazakhstan_status": "PENDING DATA ACCESS",
+  "kazakhstan_microdata_files": [],
+  "phase_boundary": "No final analytical dataset constructed and no regression model run.",
+  "source_audit": {
+    "source_hashes_before": {
+      "data/uzbekistan/l2cu/UZB_2018-2025_L2CU_v03_M_CSV.zip": "a7c96abf173e06ab358fdccda5988574e7f03b06096fe509d5f90448e57b39ac",
+      "data/uzbekistan/l2cu/l2cu_microdata_library_questionnaire_r_82.pdf": "839eff7dbed35eb04b8f5791f49afbc1b4960281706e6006313d7ddd133c6501",
+      "data/kyrgyzstan/dataverse_files.zip": "9f4206f0c161d00a3578bd4f5f9587725616f10c70bdc3c8256f325e73472a98"
+    },
+    "source_hashes_after": {
+      "data/uzbekistan/l2cu/UZB_2018-2025_L2CU_v03_M_CSV.zip": "a7c96abf173e06ab358fdccda5988574e7f03b06096fe509d5f90448e57b39ac",
+      "data/uzbekistan/l2cu/l2cu_microdata_library_questionnaire_r_82.pdf": "839eff7dbed35eb04b8f5791f49afbc1b4960281706e6006313d7ddd133c6501",
+      "data/kyrgyzstan/dataverse_files.zip": "9f4206f0c161d00a3578bd4f5f9587725616f10c70bdc3c8256f325e73472a98"
+    },
+    "source_hashes_unchanged": true,
+    "l2cu_zip_integrity": "passed",
+    "extracted_hashes": {
+      "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_household_data_82.csv": "6ffd0783ca4f62ecc7bb6827eaf68d96875588c9ef9f8073ae209610271301fc",
+      "data/interim/unpacked/uzbekistan/l2cu_v03/l2cu_cati_individual_data_82.csv": "12a57330aa933ebfeb76234484d56654204116f1cfd6e8d71b4ba4416b464ae1"
+    }
+  }
+}

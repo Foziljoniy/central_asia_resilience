@@ -1,0 +1,21 @@
+variable,observations,unique_households,weight_status,denominator,nonmissing,missing,small_cell_status,mean,sd,median,p25,p75,min,max
+total_adults,6315,2221,unweighted,,,,,,,,,,,
+lik_household_size,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,6.623119556611243,2.977505800073839,6.0,5.0,8.0,1.0,20.0
+lik_adults_in_roster,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,4.546634996041171,1.8726063168078848,4.0,3.0,6.0,1.0,12.0
+lik_head_age,6315,,unweighted,Kyrgyzstan primary descriptive adults,6314,1,ADEQUATE,55.4827367754197,12.705691566369453,56.0,48.0,63.0,6.0,93.0
+h102,6315,,unweighted,Kyrgyzstan primary descriptive adults,6314,1,ADEQUATE,1.5319923978460563,0.4990149548619189,2.0,1.0,2.0,1.0,2.0
+h103a,6315,,unweighted,Kyrgyzstan primary descriptive adults,6314,1,ADEQUATE,42.23788406715236,16.412938657739634,39.0,28.0,55.0,17.0,97.0
+h104,6315,,unweighted,Kyrgyzstan primary descriptive adults,6314,1,ADEQUATE,2.452803294266709,1.5070684810493475,2.0,1.0,3.0,1.0,11.0
+residence,6315,,unweighted,Kyrgyzstan primary descriptive adults,6298,17,ADEQUATE,1.6830739917434105,0.46531526134868684,2.0,1.0,2.0,1.0,2.0
+oblast,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,6.601900237529692,4.077045013253273,6.0,3.0,8.0,2.0,21.0
+lik_remittance_receipt,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.17070467141726048,0.37628049021840654,0.0,0.0,0.0,0.0,1.0
+lik_migrant_household,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.2190023752969121,0.41360297867981755,0.0,0.0,0.0,0.0,1.0
+lik_any_shock,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.22549485352335707,0.41794088675868274,0.0,0.0,0.0,0.0,1.0
+lik_shock_count,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.33269992082343625,0.7353249607927327,0.0,0.0,0.0,0.0,7.0
+lik_economic_shock,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.02391132224861441,0.1527850365590001,0.0,0.0,0.0,0.0,1.0
+lik_employment_shock,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.007125890736342043,0.08412034808044898,0.0,0.0,0.0,0.0,1.0
+lik_health_shock,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.09057798891528107,0.2870307701712423,0.0,0.0,0.0,0.0,1.0
+lik_agricultural_shock,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.11892319873317499,0.3237237502554792,0.0,0.0,0.0,0.0,1.0
+lik_climate_shock,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,0.12446555819477435,0.3301380652185644,0.0,0.0,0.0,0.0,1.0
+lik_fies_raw_score,6315,,unweighted,Kyrgyzstan primary descriptive adults,6315,0,ADEQUATE,1.2311955661124308,2.3570453388526507,0.0,0.0,1.0,0.0,8.0
+lik_remittance_amount_original,6315,,unweighted,Kyrgyzstan primary descriptive adults,1078,5237,ADEQUATE,87369.63914656772,113267.99234984424,50000.0,15000.0,100000.0,600.0,700000.0

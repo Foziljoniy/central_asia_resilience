@@ -1,0 +1,5 @@
+claim,estimate,ci,p_value,status
+KG_M2 interaction,-0.2140,-0.6549 to 0.2269,0.3415,PASS
+UZBROAD_M2 interaction,-0.5406,-1.0415 to -0.0398,0.03437,PASS
+UZBROAD_FE_HH interaction,-0.1771,-0.5515 to 0.1973,0.3539,PASS
+UZ work-loss exploratory,-1.1119,-1.8088 to -0.4151,0.0018,PASS

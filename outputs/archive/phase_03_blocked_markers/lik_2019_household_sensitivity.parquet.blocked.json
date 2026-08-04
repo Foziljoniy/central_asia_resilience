@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "reason": "No Parquet engine is installed. pyarrow/fastparquet installation was not approved.",
+  "intended_path": "data/processed/kyrgyzstan/lik_2019_household_sensitivity.parquet",
+  "rows_constructed_in_memory": 2314,
+  "columns_constructed_in_memory": 12,
+  "key": "lik_household_analysis_key",
+  "respondent_level_data_written": false
+}

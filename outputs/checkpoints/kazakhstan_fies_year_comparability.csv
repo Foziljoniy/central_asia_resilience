@@ -1,0 +1,17 @@
+﻿construct,comparability,evidence,phase_3_implication
+study producer,STRONG,Same package structure and documentation; sponsor details remain insufficient.,May be harmonized with documented caveats.
+target population,EXACT,Technical note states individuals aged 15 or more are sampled in the Gallup World Poll.,May be harmonized directly after validation.
+respondent age,EXACT,Age variable exists and adult eligibility is 15 years or older.,May be harmonized directly after validation.
+sampling design,MODERATE,"Post-stratification weight exists, but strata/PSU and exact mode are absent.",Requires explicit recoding/caveat before use.
+collection mode,UNKNOWN,Interview mode is not supplied in the Kazakhstan package resources.,Resolve documentation gap first.
+fieldwork timing,CONCEPTUAL ONLY,Only survey year is verified; exact dates are absent.,Use only for broad context.
+FIES wording,EXACT,Questionnaire wording and variable names match across 2014-2017.,May be harmonized directly after validation.
+reference period,EXACT,All eight FIES items use last 12 months.,May be harmonized directly after validation.
+response coding,EXACT,"FIES item data use 1 affirmative, 0 not affirmative, blank missing.",May be harmonized directly after validation.
+missing-value coding,STRONG,Blank/system missing observed for FIES; no refusal/DK codes documented for FIES items.,May be harmonized with documented caveats.
+weights,STRONG,`wt` exists and is documented as post-stratification sampling weight; pooled-year rescaling remains TBD.,May be harmonized with documented caveats.
+geographic variables,MODERATE,`Area` exists for Urban/Suburbs vs Towns/Rural; no region variable.,Requires explicit recoding/caveat before use.
+demographic variables,STRONG,"Age, Gender, Education, Income, N_adults, and N_child exist in all years.",May be harmonized with documented caveats.
+derived FIES indicators,STRONG,Same official variables exist; values are adjusted to global reference scale per documentation.,May be harmonized with documented caveats.
+variable naming,EXACT,Canonical files share the same 23 variable names.,May be harmonized directly after validation.
+file structure,EXACT,Each year has microdata plus questionnaire and technical resources in the same folder pattern.,May be harmonized directly after validation.

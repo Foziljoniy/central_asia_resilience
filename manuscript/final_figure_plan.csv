@@ -1,0 +1,9 @@
+display_order,figure_number,title,source_file,main_text_or_appendix,purpose,country,primary_or_secondary,required_revision,notes
+1,Figure 1,Conceptual framework,to be created,main text,Mechanism framing,All,primary,needs design,
+2,Figure 2,Kyrgyzstan adjusted four-group predictions,outputs/figures/figure_19_kyrgyzstan_adjusted_four_groups_v2.png,main text,KG predictions,Kyrgyzstan,primary,use v2 labels,
+3,Figure 3,Uzbekistan broad-shock adjusted four-group predictions,outputs/figures/figure_25_uzbekistan_broad_shock_predictions.png,main text,UZ predictions,Uzbekistan,primary,use broad shock,
+4,Figure 4,Standardized interaction forest plot,outputs/figures/figure_26_revised_standardized_interactions.png,main text,Directional comparison,KG+UZ,primary,zero line,
+5,Figure 5,Kazakhstan annual food-insecurity benchmark,outputs/figures/figure_24_kazakhstan_benchmark_with_ci.png,main text,Benchmark context,Kazakhstan,benchmark,do not rank countries,
+
+
+Phase 7 limited robustness: completed; primary findings preserved; remaining literature and weight limitations documented.

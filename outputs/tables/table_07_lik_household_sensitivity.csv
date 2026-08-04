@@ -1,0 +1,29 @@
+variable,denominator,observations,nonmissing,missing,weight_status,small_cell_status,mean,sd,median,p25,p75,min,max,statistic_type,correlation,rank_correlation,sensitivity_only
+lik_hh_mean_adult_raw_score,Kyrgyzstan household sensitivity file,2314,2221,93,unweighted,ADEQUATE,1.3133310820951523,2.132257539971823,0.0,0.0,2.0,0.0,8.0,,,,
+lik_hh_max_adult_raw_score,Kyrgyzstan household sensitivity file,2314,2221,93,unweighted,ADEQUATE,1.9612787032868078,2.8128301582776936,0.0,0.0,3.0,0.0,8.0,,,,
+lik_hh_min_adult_raw_score,Kyrgyzstan household sensitivity file,2314,2221,93,unweighted,ADEQUATE,0.7924358397118415,1.9253305463376627,0.0,0.0,0.0,0.0,8.0,,,,
+lik_hh_share_adults_any_affirmative,Kyrgyzstan household sensitivity file,2314,2221,93,unweighted,ADEQUATE,0.3226846193978117,0.4092253740404646,0.0,0.0,0.6666666666666666,0.0,1.0,,,,
+lik_hh_complete_fies_adults,Kyrgyzstan household sensitivity file,2314,2314,0,unweighted,ADEQUATE,2.729040622299049,1.5001237115985095,2.0,2.0,4.0,0.0,12.0,,,,
+lik_hh_adult_records,Kyrgyzstan household sensitivity file,2314,2314,0,unweighted,ADEQUATE,3.043647363872083,1.4364460539804738,3.0,2.0,4.0,1.0,12.0,,,,
+lik_hh_adult_response_coverage_rate,Kyrgyzstan household sensitivity file,2314,2314,0,unweighted,ADEQUATE,0.8983308981904489,0.24419117061458176,1.0,1.0,1.0,0.0,1.0,,,,
+lik_hh_mean_adult_raw_score vs lik_hh_min_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.8683813347284783,0.709212548735241,1
+lik_hh_mean_adult_raw_score vs lik_hh_share_adults_any_affirmative,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.8039915122236626,0.9625240757101777,1
+lik_hh_max_adult_raw_score vs lik_hh_mean_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.8990997848335001,0.9842223213453272,1
+lik_hh_max_adult_raw_score vs lik_hh_min_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.6111067637021712,0.6029083549645087,1
+lik_hh_max_adult_raw_score vs lik_hh_share_adults_any_affirmative,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.7358414665516881,0.9202579549650817,1
+lik_hh_min_adult_raw_score vs lik_hh_share_adults_any_affirmative,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.6815265444242447,0.7763861893092473,1
+lik_hh_complete_fies_adults vs lik_hh_mean_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.07710471017681536,-0.0017111521000795424,1
+lik_hh_complete_fies_adults vs lik_hh_max_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.07353089654819127,0.06493339422674947,1
+lik_hh_complete_fies_adults vs lik_hh_min_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.1905160108499609,-0.22349516176197273,1
+lik_hh_complete_fies_adults vs lik_hh_share_adults_any_affirmative,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.06797003288074868,-0.03101043898419602,1
+lik_hh_adult_records vs lik_hh_mean_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.01645558190421928,0.03673989471548443,1
+lik_hh_adult_records vs lik_hh_max_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.11476046688464261,0.09699453368759861,1
+lik_hh_adult_records vs lik_hh_min_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.12010121513990986,-0.16633327683122717,1
+lik_hh_adult_records vs lik_hh_share_adults_any_affirmative,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.0328265536244188,0.0012129728896329538,1
+lik_hh_adult_records vs lik_hh_complete_fies_adults,,2314,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.8555837633776854,0.8403596151394654,1
+lik_hh_adult_records vs lik_hh_adult_response_coverage_rate,,2314,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.014722231574058206,-0.11008491815752193,1
+lik_hh_adult_response_coverage_rate vs lik_hh_mean_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.12768933196164062,-0.0727850793275398,1
+lik_hh_adult_response_coverage_rate vs lik_hh_max_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.07303387266914382,-0.060865942101632375,1
+lik_hh_adult_response_coverage_rate vs lik_hh_min_adult_raw_score,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.16466768203651302,-0.10718793342556159,1
+lik_hh_adult_response_coverage_rate vs lik_hh_share_adults_any_affirmative,,2221,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,-0.0789099289874241,-0.060836692206679706,1
+lik_hh_adult_response_coverage_rate vs lik_hh_complete_fies_adults,,2314,,,,ADEQUATE,,,,,,,,correlation_and_rank_agreement,0.4512339038590271,0.3691313652630375,1

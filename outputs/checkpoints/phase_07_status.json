@@ -1,0 +1,13 @@
+{
+  "input": "PASS",
+  "weight_decision": "NOT APPROVED",
+  "round": "CONSISTENT",
+  "lagged": "DIRECTIONALLY CONSISTENT",
+  "participation": "GENERALLY STABLE",
+  "complete_case": "NOT IMPLEMENTED",
+  "kg": "DIRECTIONAL BUT IMPRECISE - CONFIRMED",
+  "literature": "COMPLETE WITH GAPS",
+  "claims_ready": "5 OF 5",
+  "readiness": "READY WITH LIMITATIONS",
+  "next": "MANUSCRIPT PREPARATION"
+}

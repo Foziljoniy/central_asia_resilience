@@ -1,0 +1,5 @@
+check,beta_3,se,ci_lower,ci_upper,p_value,observations,households,sign,beta_3_min,beta_3_max,beta_3_median,sign_consistency,clusters_checked,base_beta_3,status
+household_equal_analysis,-9.454769600426559,21.849304071607015,-52.27861866804067,33.369079467187554,0.6652135845553431,2000,2000,-1.0,,,,,,,
+one_eligible_round_per_household,-2.2728613329450282,0.624232107622274,-3.4963337818782163,-1.0493888840118402,0.00027152667286789445,2000,2000,-1.0,,,,,,,
+leave_one_high_leverage_household_cluster_out_top20,,,,,,,,,-1.4210583579415579,-0.9749036998119182,-1.1097244266804451,1,20,-1.111911728846368,
+overall_influence_summary,,,,,,,,,-9.454769600426559,-0.9749036998119182,-1.112753341328078,1,,,GENERALLY STABLE

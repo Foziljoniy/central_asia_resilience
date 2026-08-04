@@ -1,0 +1,5 @@
+model_id,group,prediction,ci_lower,ci_upper,observations,clusters,method,weight_status
+UZBROAD_POISSON_M2,"No remittance, no verified shock",0.7343796352618812,0.6767596449027007,0.7919996256210617,47135,2000,Poisson observed-value standardization,unweighted; popw not used
+UZBROAD_POISSON_M2,"Remittance, no verified shock",0.5894237358076645,0.4885421915919892,0.6903052800233398,47135,2000,Poisson observed-value standardization,unweighted; popw not used
+UZBROAD_POISSON_M2,"No remittance, verified shock",1.2689652145373504,1.0809253543067703,1.4570050747679306,47135,2000,Poisson observed-value standardization,unweighted; popw not used
+UZBROAD_POISSON_M2,"Remittance, verified shock",0.6225063364951201,0.19556254447942112,1.049450128510819,47135,2000,Poisson observed-value standardization,unweighted; popw not used

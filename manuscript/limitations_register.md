@@ -1,0 +1,22 @@
+# Limitations register
+
+- **Observational design**. Why it matters: Associations may reflect confounding. Likely direction: Unknown. Mitigation: Country-specific controls and sensitivity checks. Remaining uncertainty: Causality remains unresolved. Future research: Quasi-experimental or prospective designs.
+- **Selection into migration and remittance receipt**. Why it matters: Recipients differ from non-recipients. Likely direction: Ambiguous. Mitigation: Observed controls and separate models. Remaining uncertainty: Unobserved selection remains. Future research: Migration-history designs.
+- **Reverse causality**. Why it matters: Food insecurity may affect remittance behavior. Likely direction: Ambiguous. Mitigation: Cautious wording. Remaining uncertainty: Timing unresolved. Future research: Lagged remittance data.
+- **Residual time-varying confounding**. Why it matters: Unmeasured shocks may co-move with remittances. Likely direction: Ambiguous. Mitigation: Fixed effects for Uzbekistan. Remaining uncertainty: FE estimate attenuated. Future research: Richer panel covariates.
+- **Household fixed-effects attenuation in Uzbekistan**. Why it matters: Pooled result weaker within households. Likely direction: Reduces confidence. Mitigation: Reported separately. Remaining uncertainty: Precision limited. Future research: Longer panels.
+- **Different recall periods**. Why it matters: LiK 12 months vs L2CU 30 days. Likely direction: Comparability limited. Mitigation: No pooling. Remaining uncertainty: Not harmonized. Future research: Comparable surveys.
+- **Different observation units**. Why it matters: Adult vs household-round. Likely direction: Comparability limited. Mitigation: Separate interpretation. Remaining uncertainty: No common estimand. Future research: Matched designs.
+- **Different shock definitions**. Why it matters: Shock domains differ. Likely direction: Comparability limited. Mitigation: Broad-shock revision. Remaining uncertainty: Conceptual gap remains. Future research: Harmonized shock modules.
+- **Unweighted L2CU estimates**. Why it matters: Population representativeness uncertain. Likely direction: Unknown. Mitigation: Explicit notes. Remaining uncertainty: Weight documentation unresolved. Future research: Weight validation.
+- **No LiK survey weights**. Why it matters: Representativeness uncertain. Likely direction: Unknown. Mitigation: Unweighted disclosure. Remaining uncertainty: Cannot design-correct. Future research: Survey design metadata.
+- **Small broad-shock remittance joint group in Uzbekistan**. Why it matters: Precision and leverage concerns. Likely direction: May overstate precision. Mitigation: Influence checks. Remaining uncertainty: Cell remains modest. Future research: Larger samples.
+- **Very sparse Uzbekistan work-loss subgroup**. Why it matters: Event-specific result unstable. Likely direction: Potentially exaggerated. Mitigation: Reclassified exploratory. Remaining uncertainty: Cannot headline. Future research: More events.
+- **Adult-level food-insecurity reporting in Kyrgyzstan**. Why it matters: Household inference indirect. Likely direction: Ambiguous. Mitigation: Household sensitivity. Remaining uncertainty: Aggregation unresolved. Future research: Household-level module.
+- **Reporting and measurement error**. Why it matters: Misclassification possible. Likely direction: Attenuation or bias. Mitigation: FIES validation. Remaining uncertainty: Residual error remains. Future research: Validation studies.
+- **Complete-case analysis**. Why it matters: Sample selection possible. Likely direction: Unknown. Mitigation: Sample-flow documentation. Remaining uncertainty: No imputation. Future research: Missing-data robustness.
+- **Kazakhstan lacks mechanism variables**. Why it matters: No remittance-shock test. Likely direction: Not applicable. Mitigation: Benchmark role only. Remaining uncertainty: No mechanism inference. Future research: New data access.
+- **Generalizability limitations**. Why it matters: Two main countries and specific years. Likely direction: Limited. Mitigation: Country-specific claims. Remaining uncertainty: Regional inference cautious. Future research: More countries.
+- **Multiple secondary analyses**. Why it matters: False positives possible. Likely direction: May overinterpret. Mitigation: FDR for secondary families. Remaining uncertainty: Exploratory limits. Future research: Pre-registered replication.
+
+Phase 7 limited robustness: completed; primary findings preserved; remaining literature and weight limitations documented.

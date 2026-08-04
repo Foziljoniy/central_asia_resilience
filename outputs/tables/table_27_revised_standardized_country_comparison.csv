@@ -1,0 +1,3 @@
+country,shock_definition,recall_period,observation_unit,standardized_interaction,ci_lower,ci_upper,p_value,observations,household_clusters,weighting_status,joint_cell_observations,joint_cell_households,limitations
+Kyrgyzstan,Any household shock,12 months,adult respondent,-0.0908010197823841,-0.2778903018662436,0.09628826230147537,0.3414827747232403,6297,2215,unweighted,318,112,LiK adult outcome; household exposure.
+Uzbekistan,Any verified household shock: work loss or major health/injury/death,30 days,household-round,-0.33690958169461327,-0.6490131111105896,-0.02480605227863697,0.03436672894923709,47135,2000,unweighted; popw not used,42,38,"Shock definition, recall, and unit differ from Kyrgyzstan."

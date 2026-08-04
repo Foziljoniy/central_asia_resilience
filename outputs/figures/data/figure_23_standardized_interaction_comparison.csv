@@ -1,0 +1,3 @@
+country,operational_shock_definition,recall_period,observation_unit,standardized_beta_3,ci_lower,ci_upper,p_value,observations,clusters,weighting_status,limitations
+Kyrgyzstan,any household shock,12 months,adult respondent,-0.0908010197823841,-0.2778903018662436,0.0962882623014753,0.3414827747232403,6297,2215,unweighted,LiK adult outcome and household exposure; no survey weight.
+Uzbekistan,work-loss shock,30 days,household-round,-0.6929096834240746,-1.1271653510036397,-0.2586540158445094,0.001763779727244,47135,2000,unweighted; popw not used,"Shock definition, recall, and observation unit differ from Kyrgyzstan."

@@ -1,0 +1,2 @@
+reference_count_in_bib,reference_count_cited,missing_bibliography_entries,uncited_bibliography_entries,unresolved_citations,clickable_citations,clickable_dois,clickable_urls,declaration_placeholders_remaining,status,notes
+20,20,0,0,0,PASS,PASS,PASS,0,PASS,missing=[]; uncited=[]; manual_author_year=[]; Reader uses blue citation and URL links; submission uses hidden links.

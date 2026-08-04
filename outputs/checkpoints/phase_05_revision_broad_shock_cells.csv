@@ -1,0 +1,5 @@
+group,remittance,verified_shock,household_round_observations,unique_households,median_rounds_per_household,mean_rounds_per_household,max_rounds_one_household,households_exclusive_to_group,households_contributing_to_multiple_groups,complete_fies_observations,effective_household_cluster_count,outcome_mean,outcome_sd,cell_classification
+"No remittance, no verified shock",0,0,43329,1990,25.0,21.773366834170854,34,1216,774,43329,1990,0.7365736573657365,1.6162719509743346,ADEQUATE
+"Remittance, no verified shock",1,0,3178,477,5.0,6.662473794549266,30,5,472,3178,477,0.5604153555695406,1.295120530961083,ADEQUATE
+"No remittance, verified shock",0,1,586,407,1.0,1.4398034398034398,6,4,403,586,407,1.31740614334471,2.0518752970796283,ADEQUATE
+"Remittance, verified shock",1,1,42,38,1.0,1.105263157894737,2,0,38,42,38,0.6904761904761905,1.5693418729051445,ADEQUATE

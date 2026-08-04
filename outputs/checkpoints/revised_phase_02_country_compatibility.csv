@@ -1,0 +1,16 @@
+﻿concept,kyrgyzstan_status,kyrgyzstan_variables,uzbekistan_status,uzbekistan_variables,kazakhstan_status,comparison_note
+household identifier,VERIFIED,hhid,VERIFIED,hhid,PENDING DATA ACCESS,survey-specific identifier
+"time, wave or round",VERIFIED,int_date; constant wave=2019,VERIFIED,round; date_start; date_end,PENDING DATA ACCESS,2018-2025 repeated CATI rounds
+remittance receipt,VERIFIED,h620,VERIFIED,mig_living_remittance; remittance_hh,PENDING DATA ACCESS,shorter recall and two channels versus LiK member-migrant item
+remittance amount,VERIFIED,h622; h623,VERIFIED,mig_living_remittance_amount; mig_living_remittance_currency; remittance_hh_amount; remittance_hh_currency,PENDING DATA ACCESS,currency conversion required; recall differs from LiK
+household shock exposure,VERIFIED,shock; h701; h702; h703; h704,VERIFIED,work_lost_hh; change_important; change_important_type; water_disruption; gas_disruption; heat_disruption,PENDING DATA ACCESS,narrower and shorter recall than LiK event roster
+economic shock,VERIFIED,shock; h701,VERIFIED - LIMITED,work_lost_hh,PENDING DATA ACCESS,no broader household economic-event roster verified
+employment or income shock,VERIFIED,shock; h701; h704,VERIFIED,work_lost_hh,PENDING DATA ACCESS,closest cross-country match is LiK shock code 12
+health shock,VERIFIED,shock; h701,VERIFIED,change_important; change_important_type,PENDING DATA ACCESS,"shorter recall; CSV exposes one type per positive row, which may not retain multiple simultaneous changes"
+agricultural or climate shock,VERIFIED,shock; h701,NOT AVAILABLE IN SUPPLIED FILES,not available,PENDING DATA ACCESS,country model cannot match LiK agricultural/climate shock
+food-insecurity outcome,VERIFIED,i251_1-i251_8,VERIFIED,ln_1-ln_8; secondary food_past30d,PENDING DATA ACCESS,L2CU yes/no 30-day battery versus LiK frequency-coded 12-month adult battery
+household size,VERIFIED - DERIVED LATER,hhid; pid,VERIFIED,hhsize,PENDING DATA ACCESS,LiK requires roster derivation
+rural or urban residence,VERIFIED,residence,NOT AVAILABLE IN SUPPLIED FILES,not available,PENDING DATA ACCESS,cannot include matched residence control with supplied L2CU release
+region,VERIFIED,oblast,NOT AVAILABLE IN SUPPLIED FILES,not available,PENDING DATA ACCESS,cannot include matched region effects with supplied L2CU release
+"household assets, income or wealth",VERIFIED,asset; h219; h220; h223; income; h501; h502,VERIFIED - LIMITED,assets_past30d; wage_amount; aginc_amount; selfempinc_amount; otherinc_amount,PENDING DATA ACCESS,less comprehensive than LiK asset roster
+survey weights or documented reason for no weight,DOCUMENTED NO WEIGHT,no weight variable assigned,VERIFIED COLUMN; DOCUMENTATION GAP,popw,PENDING DATA ACCESS,LiK explicitly has no assigned sample weights

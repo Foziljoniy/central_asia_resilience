@@ -1,0 +1,6 @@
+claim_id,claim,result_verified,numerical_source,limitation_attached,literature_support_required,literature_source,source_verified,citation_complete,wording_status,manuscript_ready,action,notes
+C001,Kyrgyzstan interaction was negative but imprecise.,1,table_16,1,0,,1,1,NON-CAUSAL,1,,
+C002,Uzbekistan broad-shock interaction was negative in the preferred model.,1,table_24,1,0,,1,1,NON-CAUSAL,1,,
+C003,Uzbekistan fixed-effects estimate was negative but attenuated and imprecise.,1,checkpoint,1,0,,1,1,NON-CAUSAL,1,,
+C004,Uzbekistan work-loss result is exploratory due to sparse cell.,1,appendix,1,0,,1,1,NON-CAUSAL,1,,
+C005,"Kazakhstan is benchmark context, not a mechanism test.",1,table_22,1,0,,1,1,NON-CAUSAL,1,,

@@ -1,0 +1,4 @@
+country,path,row_count,expected_rows,checksum_status,key_duplicate_count,outcome_range,remittance_range,shock_range,cluster_count,required_variables_missing,validation_status
+Kyrgyzstan,data/processed/kyrgyzstan/lik_2019_adult_analysis.parquet,7043,7043,MATCH,0,0 to 8,0 to 1,0 to 1,2314,,PASS
+Uzbekistan,data/processed/uzbekistan/l2cu_r49_82_household_analysis.parquet,48925,48925,MATCH,0,0 to 8,0 to 1,0 to 1,2036,,PASS
+Kazakhstan,data/processed/kazakhstan/kaz_fies_2014_2017_benchmark.parquet,4000,4000,MATCH,0,0.0 to 8.0,,,4000,,PASS

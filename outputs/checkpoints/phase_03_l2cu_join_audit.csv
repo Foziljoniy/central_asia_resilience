@@ -1,0 +1,8 @@
+﻿metric,value,notes
+household_round_rows,48925,rounds 49-82
+unique_household_round_keys,48925,
+duplicate_household_round_keys,0,
+individual_roster_household_round_coverage,47542,matched household-round keys
+unmatched_household_rounds,1383,not dropped silently
+individual_rows,255505,
+max_individual_rows_per_household_round,20,

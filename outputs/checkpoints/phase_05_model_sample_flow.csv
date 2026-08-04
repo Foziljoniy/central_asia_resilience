@@ -1,0 +1,9 @@
+country,model_id,starting_eligible_sample,excluded_missing_outcome,excluded_missing_remittance,excluded_missing_shock,excluded_missing_controls,final_observations,final_clusters,percent_descriptive_sample_retained,missing_data_rule
+Kyrgyzstan,KG_M0,6315,0,0,0,0,6315,2221,1.0,complete case; no imputation
+Kyrgyzstan,KG_M1,6315,0,0,0,1,6314,2221,0.9998416468725257,complete case; no imputation
+Kyrgyzstan,KG_M2,6315,0,0,0,18,6297,2215,0.9971496437054632,complete case; no imputation
+Kyrgyzstan,KG_M3,6315,0,0,0,4817,1498,949,0.23721298495645288,complete case; no imputation
+Uzbekistan,UZ_M0,47135,0,0,0,0,47135,2000,1.0,complete case; no imputation
+Uzbekistan,UZ_M1,47135,0,0,0,0,47135,2000,1.0,complete case; no imputation
+Uzbekistan,UZ_M2,47135,0,0,0,0,47135,2000,1.0,complete case; no imputation
+Uzbekistan,UZ_M3,47135,0,0,0,46727,408,157,0.008655988119231994,complete case; no imputation

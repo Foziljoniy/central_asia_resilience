@@ -1,0 +1,17 @@
+country,context,variable_group,variables,denominator_values,missing_values,missing_rate,structural_missingness,ordinary_nonresponse_note,weight_status
+Kazakhstan,overall,outcome_items,kaz_fies_item_1;kaz_fies_item_2;kaz_fies_item_3;kaz_fies_item_4;kaz_fies_item_5;kaz_fies_item_6;kaz_fies_item_7;kaz_fies_item_8,32000,757,0.02365625,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,raw_score,kaz_raw_score,4000,272,0.068,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,remittance_receipt,,4000,4000,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,remittance_amount,,4000,4000,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,primary_shock,,4000,4000,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,secondary_shocks,,4000,4000,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,household_size,kaz_n_adults;kaz_n_child,8000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,age,kaz_age,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,sex,kaz_gender,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,education,kaz_education,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,children,kaz_n_child,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,welfare_assets,kaz_income,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,location_variables,kaz_area,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,weight_variables,kaz_weight_original,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,round_or_year,survey_year,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs
+Kazakhstan,overall,merge_quality_flags,kaz_item_direction_verified,4000,0,0.0,,Not tested; structural non-administration is not respondent refusal.,year-specific original weights only for weighted benchmark outputs

@@ -1,0 +1,17 @@
+{
+  "installation_command": "python -m pip install pyarrow",
+  "installation_result": "INSTALLED",
+  "pyarrow_imports": true,
+  "pyarrow_version": "25.0.0",
+  "pandas_version": "3.0.1",
+  "engine": "pyarrow",
+  "round_trip_values_match": true,
+  "round_trip_dtypes": {
+    "id": "int64",
+    "label": "str",
+    "value": "float64",
+    "flag": "bool"
+  },
+  "round_trip_validation_result": "PASS",
+  "temporary_files_deleted": true
+}

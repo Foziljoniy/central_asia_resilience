@@ -1,0 +1,5 @@
+issue,count,status
+internal workflow text,0,PASS
+duplicated KG coefficient statements,2,PASS
+duplicated UZ coefficient statements,2,PASS
+visible citation gap placeholders,0,PASS

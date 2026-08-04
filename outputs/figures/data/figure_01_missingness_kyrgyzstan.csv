@@ -1,0 +1,17 @@
+country,context,variable_group,variables,denominator_values,missing_values,missing_rate,structural_missingness,ordinary_nonresponse_note,weight_status
+Kyrgyzstan,overall,outcome_items,lik_fies_item_1;lik_fies_item_2;lik_fies_item_3;lik_fies_item_4;lik_fies_item_5;lik_fies_item_6;lik_fies_item_7;lik_fies_item_8,56344,3991,0.07083274172937669,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,raw_score,lik_fies_raw_score,7043,728,0.10336504330540963,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,remittance_receipt,lik_remittance_receipt,7043,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,remittance_amount,lik_remittance_amount_original,7043,5880,0.8348715036206162,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,primary_shock,lik_any_shock,7043,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,secondary_shocks,lik_economic_shock;lik_employment_shock;lik_health_shock;lik_agricultural_shock;lik_climate_shock,35215,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,household_size,lik_household_size,7043,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,age,i218,7043,5312,0.7542240522504614,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,sex,h102,7043,1,0.0001419849495953429,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,education,h103a,7043,1,0.0001419849495953429,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,children,h104,7043,1,0.0001419849495953429,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,welfare_assets,lik_remittance_amount_original,7043,5880,0.8348715036206162,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,location_variables,oblast;residence,14086,17,0.0012068720715604146,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,weight_variables,,7043,7043,1.0,STRUCTURAL_NOT_AVAILABLE,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,round_or_year,survey_year,7043,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted
+Kyrgyzstan,overall,merge_quality_flags,lik_source_provenance,7043,0,0.0,,Not tested; structural non-administration is not respondent refusal.,unweighted

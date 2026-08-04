@@ -1,0 +1,22 @@
+{
+  "kazakhstan_status_update": "Kazakhstan FIES access is granted. Kazakhstan is used as a K1+K2 food-insecurity trend and demographic benchmark. It is not part of the remittance-shock interaction model.",
+  "files_updated": [
+    "research\\main_analysis_plan.md",
+    "research\\pre_analysis_registry.yaml",
+    "outputs\\checkpoints\\phase_03_reproducibility_manifest.json"
+  ],
+  "blocked_markers_found": [],
+  "blocked_markers_archived": [],
+  "manifest_regeneration_status": "COMPLETE",
+  "raw_checksums_unchanged": true,
+  "previously_archived_markers": [
+    "outputs\\archive\\phase_03_blocked_markers\\kaz_fies_2014.parquet.blocked.json",
+    "outputs\\archive\\phase_03_blocked_markers\\kaz_fies_2014_2017_benchmark.parquet.blocked.json",
+    "outputs\\archive\\phase_03_blocked_markers\\kaz_fies_2015.parquet.blocked.json",
+    "outputs\\archive\\phase_03_blocked_markers\\kaz_fies_2016.parquet.blocked.json",
+    "outputs\\archive\\phase_03_blocked_markers\\kaz_fies_2017.parquet.blocked.json",
+    "outputs\\archive\\phase_03_blocked_markers\\l2cu_r49_82_household_analysis.parquet.blocked.json",
+    "outputs\\archive\\phase_03_blocked_markers\\lik_2019_adult_analysis.parquet.blocked.json",
+    "outputs\\archive\\phase_03_blocked_markers\\lik_2019_household_sensitivity.parquet.blocked.json"
+  ]
+}

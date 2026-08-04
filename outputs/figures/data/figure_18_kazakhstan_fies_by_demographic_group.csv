@@ -1,0 +1,20 @@
+country,survey_year,grouping_variable,group,unweighted_observations,small_cell_status,weight_status,weighted_mean_raw_score,mean_supplied_probability_mod_sev,mean_supplied_probability_sev
+Kazakhstan,2014,age_group,18-29,241,ADEQUATE,kaz_weight_original; year-specific only,0.6389453389885491,0.06838611139238754,0.004438552669461758
+Kazakhstan,2014,age_group,30-44,295,ADEQUATE,kaz_weight_original; year-specific only,0.8078637987566152,0.07494494707690821,0.002118994036446849
+Kazakhstan,2014,age_group,45-59,232,ADEQUATE,kaz_weight_original; year-specific only,0.8981437837260228,0.09145413560560252,0.008697616606244903
+Kazakhstan,2014,age_group,60 and older,186,ADEQUATE,kaz_weight_original; year-specific only,1.0987150203573064,0.11742266208215585,0.025671608174698175
+Kazakhstan,2014,age_group,nan,46,ADEQUATE,kaz_weight_original; year-specific only,0.6613914319862038,0.07080981381003938,0.00012418057483129486
+Kazakhstan,2015,age_group,18-29,259,ADEQUATE,kaz_weight_original; year-specific only,0.3420767998351662,0.019349125266528492,0.0003031244849660783
+Kazakhstan,2015,age_group,30-44,321,ADEQUATE,kaz_weight_original; year-specific only,0.6190583380745731,0.060574789328403225,0.004541816859942716
+Kazakhstan,2015,age_group,45-59,252,ADEQUATE,kaz_weight_original; year-specific only,0.6084402378838133,0.06731988080219951,0.0077351309558048925
+Kazakhstan,2015,age_group,60 and older,147,ADEQUATE,kaz_weight_original; year-specific only,0.6857534665078857,0.06718935455234912,0.012866427434490964
+Kazakhstan,2016,age_group,18-29,235,ADEQUATE,kaz_weight_original; year-specific only,0.558192069604397,0.06115990934639184,0.012805386970426096
+Kazakhstan,2016,age_group,30-44,346,ADEQUATE,kaz_weight_original; year-specific only,0.7615370027092166,0.0842830399052075,0.022560835724998344
+Kazakhstan,2016,age_group,45-59,242,ADEQUATE,kaz_weight_original; year-specific only,0.8064264017379263,0.09300992751764478,0.026112575211849443
+Kazakhstan,2016,age_group,60 and older,141,ADEQUATE,kaz_weight_original; year-specific only,0.7657588552805482,0.09330512874216192,0.018802294616340167
+Kazakhstan,2016,age_group,nan,36,ADEQUATE,kaz_weight_original; year-specific only,0.28612341181571993,0.036958957879905024,6.516758851666401e-05
+Kazakhstan,2017,age_group,18-29,217,ADEQUATE,kaz_weight_original; year-specific only,0.6363835514504028,0.06721014320086842,0.013105022975643947
+Kazakhstan,2017,age_group,30-44,362,ADEQUATE,kaz_weight_original; year-specific only,1.1563749806445778,0.13588751457803228,0.0239025152154581
+Kazakhstan,2017,age_group,45-59,214,ADEQUATE,kaz_weight_original; year-specific only,0.8412572626179096,0.09791113966458537,0.013393572329032193
+Kazakhstan,2017,age_group,60 and older,172,ADEQUATE,kaz_weight_original; year-specific only,0.9786055594705921,0.10950562259010226,0.028272198956492203
+Kazakhstan,2017,age_group,nan,35,ADEQUATE,kaz_weight_original; year-specific only,0.0378026556845311,0.0007800548468905405,1.546621900817606e-07

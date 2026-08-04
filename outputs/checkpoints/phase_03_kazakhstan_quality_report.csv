@@ -1,0 +1,9 @@
+﻿dataset,metric,variable,value,notes
+kaz_fies_2014_2017_benchmark,rows,,4000,
+kaz_fies_2014_2017_benchmark,columns,,31,
+kaz_fies_2014_2017_benchmark,unique_keys,kaz_respondent_year_key,4000,
+kaz_fies_2014_2017_benchmark,duplicate_keys,kaz_respondent_year_key,0,
+kaz_fies_2014_2017_benchmark,missing_keys,kaz_respondent_year_key,0,
+kaz_fies_2014_2017_benchmark,missing_count,kaz_raw_score,272,aggregate missingness only
+kaz_fies_2014_2017_benchmark,missing_count,kaz_prob_mod_sev,272,aggregate missingness only
+kaz_fies_2014_2017_benchmark,missing_count,kaz_weight_original,0,aggregate missingness only

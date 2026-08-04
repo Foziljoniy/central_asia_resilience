@@ -1,0 +1,46 @@
+country,step,observations,unique_households,note
+Kyrgyzstan,all constructed adult rows,7043,2314,
+Kyrgyzstan,adults with valid household links,7043,2314,
+Kyrgyzstan,adults with known remittance status,7043,,
+Kyrgyzstan,adults with known shock status,7043,,
+Kyrgyzstan,adults with all eight valid food-insecurity items,6315,,
+Kyrgyzstan,adults eligible for primary descriptive sample,6315,2221,
+Kyrgyzstan,adults per household distribution: count,2314.0,,distribution statistic
+Kyrgyzstan,adults per household distribution: mean,3.043647363872083,,distribution statistic
+Kyrgyzstan,adults per household distribution: std,1.4364460539804738,,distribution statistic
+Kyrgyzstan,adults per household distribution: min,1.0,,distribution statistic
+Kyrgyzstan,adults per household distribution: 25%,2.0,,distribution statistic
+Kyrgyzstan,adults per household distribution: 50%,3.0,,distribution statistic
+Kyrgyzstan,adults per household distribution: 75%,4.0,,distribution statistic
+Kyrgyzstan,adults per household distribution: max,12.0,,distribution statistic
+Uzbekistan,all rounds 49-82 household-rounds,48925,2036,
+Uzbekistan,household-rounds with FIES module administered,48925,,
+Uzbekistan,household-rounds with known remittance status,47135,,
+Uzbekistan,household-rounds with known primary shock status,48925,,
+Uzbekistan,household-rounds with all eight valid FIES items,48925,,
+Uzbekistan,primary descriptive sample,47135,2000,
+Uzbekistan,households observed in one round,65,65,household count
+Uzbekistan,households observed in two rounds,43,43,household count
+Uzbekistan,households observed in five rounds,34,34,household count
+Uzbekistan,households observed in ten rounds,15,15,household count
+Uzbekistan,households observed in twenty or more rounds,1264,1264,household count
+Kazakhstan,source observations 2014,1000,,year-specific
+Kazakhstan,observations with eight valid FIES items 2014,898,,year-specific
+Kazakhstan,observations with valid original weights 2014,1000,,year-specific
+Kazakhstan,observations with valid demographic variables 2014,1000,,year-specific
+Kazakhstan,benchmark-eligible observations 2014,898,,year-specific
+Kazakhstan,source observations 2015,1000,,year-specific
+Kazakhstan,observations with eight valid FIES items 2015,926,,year-specific
+Kazakhstan,observations with valid original weights 2015,1000,,year-specific
+Kazakhstan,observations with valid demographic variables 2015,1000,,year-specific
+Kazakhstan,benchmark-eligible observations 2015,926,,year-specific
+Kazakhstan,source observations 2016,1000,,year-specific
+Kazakhstan,observations with eight valid FIES items 2016,936,,year-specific
+Kazakhstan,observations with valid original weights 2016,1000,,year-specific
+Kazakhstan,observations with valid demographic variables 2016,1000,,year-specific
+Kazakhstan,benchmark-eligible observations 2016,936,,year-specific
+Kazakhstan,source observations 2017,1000,,year-specific
+Kazakhstan,observations with eight valid FIES items 2017,968,,year-specific
+Kazakhstan,observations with valid original weights 2017,1000,,year-specific
+Kazakhstan,observations with valid demographic variables 2017,1000,,year-specific
+Kazakhstan,benchmark-eligible observations 2017,968,,year-specific

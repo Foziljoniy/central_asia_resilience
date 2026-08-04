@@ -1,0 +1,6 @@
+model_id,term,coefficient,clustered_se,ci_lower,ci_upper,p_value,observations,clusters,r_squared,weight_status,fixed_effects,country,heterogeneity,status,primary_or_secondary,adjusted_p_value
+KY_HET_residence,three_way,-0.6460023826186053,0.5433181321045824,-1.710886353691162,0.4188815884539513,0.2344417502650784,6298,2215,0.07469073458970177,unweighted,secondary heterogeneity,Kyrgyzstan,residence,COMPLETED,secondary,0.7033252507952352
+KY_HET_children,three_way,0.24543985255533118,0.3646399990984907,-0.46924141300042843,0.9601211181110908,0.5008825065098439,6315,2221,0.07391309283939651,unweighted,secondary heterogeneity,Kyrgyzstan,children,COMPLETED,secondary,0.7513237597647658
+KY_HET_lower_asset_proxy,three_way,-0.1058043328375928,0.3603379726429603,-0.8120537814799743,0.6004451158047887,0.7690442674068434,6315,2221,0.07364774723981271,unweighted,secondary heterogeneity,Kyrgyzstan,lower_asset_proxy,COMPLETED,secondary,0.7690442674068434
+,,,,,,,,,,,,Uzbekistan,children,SUPPRESSED_SMALL_CELL,,
+,,,,,,,,,,,,Uzbekistan,lower_welfare,SUPPRESSED_SMALL_CELL,,

@@ -1,0 +1,8 @@
+measure,value,se,p_value
+households_switching_remittance_status,476,,
+households_switching_work_loss_shock_status,174,,
+households_switching_both,44,,
+households_with_within_household_fies_variation,1431,,
+observations_contributed_by_switchers,17066,,
+fixed_effects_status,COMPLETED,,
+fixed_effects_interaction,-0.6352238557469543,0.19610156895566877,0.0011984051645839155

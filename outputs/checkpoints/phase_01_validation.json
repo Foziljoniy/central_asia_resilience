@@ -1,0 +1,30 @@
+{
+  "raw_archive_checksums_unchanged": true,
+  "nothing_extracted_into_requested_raw_directories": true,
+  "nested_archives_safely_processed": true,
+  "exact_duplicate_archives_not_repeatedly_extracted": true,
+  "no_extraction_path_escaped": true,
+  "all_paths_project_relative": true,
+  "csv_outputs_open": true,
+  "no_respondent_values_exported": true,
+  "uzbekistan_not_mislabeled_l2cu": true,
+  "variables_not_mapped_only_from_short_names": true,
+  "regression_run": false,
+  "countries_pooled": false,
+  "research_question_preserved": true,
+  "main_analysis_plan_saved": true,
+  "literature_notes_preserved": true,
+  "uncertainty_documented": true,
+  "csv_details": {
+    "phase_01_archive_inventory.csv": true,
+    "phase_01_archive_members.csv": true,
+    "phase_01_archive_duplicates.csv": true,
+    "phase_01_file_inventory.csv": true,
+    "phase_01_dataset_inventory.csv": true,
+    "phase_01_variable_metadata.csv": true,
+    "phase_01_variable_candidates.csv": true,
+    "phase_01_country_compatibility_matrix.csv": true,
+    "phase_01_literature_inventory.csv": true,
+    "phase_01_topic_feasibility_matrix.csv": true
+  }
+}

@@ -1,0 +1,2 @@
+model_id,interaction,household_clustered_se,household_ci_lower,household_ci_upper,two_way_clustered_se,two_way_ci_lower,two_way_ci_upper,round_block_bootstrap_ci_lower,round_block_bootstrap_ci_upper,households,rounds,warnings,classification
+UZBROAD_M2,-0.5406385917369163,0.2555313971860551,-1.041470927140784,-0.03980625633304857,0.23275954755838626,-0.9968389220091913,-0.08443826146464134,-1.04222931904627,-0.07116601662402068,2000,34,Few round clusters; bootstrap is sensitivity only.,CONSISTENT

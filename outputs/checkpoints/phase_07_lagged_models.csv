@@ -1,0 +1,4 @@
+model_id,observations,households,joint_exposure_observations,joint_exposure_households,interaction,ci_lower,ci_upper,p_value,direction_relative_to_primary,timing_limitations,status
+UZ_LAG1_REM,44971,1933,36,33,-0.6206020518224801,-1.0814249521733064,-0.15977915147165384,0.008302011812839627,same negative direction,Only consecutive rounds; no forward fill.,COMPLETED
+UZ_LAG1_BOTH,44971,1933,40,37,-0.5356972646499307,-1.011323435293994,-0.060071094005867576,0.027278769383088042,same negative direction,Only consecutive rounds; no forward fill.,COMPLETED
+UZ_LAG_REM_CURRENT_SHOCK_FE,44971,1933,36,33,-0.6206020518224801,-1.0814249521733064,-0.15977915147165384,0.008302011812839627,same negative direction,Only consecutive rounds; no forward fill.,COMPLETED

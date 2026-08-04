@@ -1,0 +1,2 @@
+model_id,beta_3,clustered_se,ci_lower,ci_upper,p_value,observations,households,remittance_switchers,shock_switchers,both_variable_switchers,households_with_fies_variation,observations_contributed_by_switchers,within_r_squared,warnings
+UZBROAD_FE_HH,-0.1770732788615731,0.19102169164862454,-0.5514689147587928,0.1973223570356466,0.3539369425757586,47135,2000,476,429,130,1431,21361,0.044184244724458366,Household fixed effects do not resolve all endogeneity.

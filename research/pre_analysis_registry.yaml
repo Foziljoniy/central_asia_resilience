@@ -1,0 +1,68 @@
+paper_title: "Do Remittances Buffer Household Shocks? Evidence on Food Insecurity in Kyrgyzstan and Uzbekistan"
+main_research_question: "Is the negative association between household shocks and food insecurity weaker among remittance-receiving households in Kyrgyzstan and Uzbekistan?"
+main_design_decision: "FULL TWO-COUNTRY DESIGN"
+kyrgyzstan_dataset: "Life in Kyrgyzstan Study, LiK"
+uzbekistan_dataset: "Listening to the Citizens of Uzbekistan, L2CU"
+kyrgyzstan_uzbekistan_pooling: "NOT ALLOWED"
+kazakhstan_access_status: "ACCESS GRANTED - FOUR YEAR-SPECIFIC DATA PACKAGES RECEIVED"
+kazakhstan_access_date: "2026-07-26"
+kazakhstan_source_root: "data/kazakhstan/"
+kazakhstan_dataset_2014: "KAZ_2014_FIES_v01_EN_M_v01_A_OCS"
+kazakhstan_dataset_2015: "KAZ_2015_FIES_v01_EN_M_v01_A_OCS"
+kazakhstan_dataset_2016: "KAZ_2016_FIES_v01_EN_M_v01_A_OCS"
+kazakhstan_dataset_2017: "KAZ_2017_FIES_v01_EN_M_v01_A_OCS"
+kazakhstan_canonical_file_2014: "data/kazakhstan/KAZ_2014_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2014_FIES_v01_EN_M_v01_A_OCS.sav"
+kazakhstan_canonical_file_2015: "data/kazakhstan/KAZ_2015_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2015_FIES_v01_EN_M_v01_A_OCS.sav"
+kazakhstan_canonical_file_2016: "data/kazakhstan/KAZ_2016_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2016_FIES_v01_EN_M_v01_A_OCS.sav"
+kazakhstan_canonical_file_2017: "data/kazakhstan/KAZ_2017_FIES_v01_EN_M_v01_A_OCS/microdata/KAZ_2017_FIES_v01_EN_M_v01_A_OCS.sav"
+kazakhstan_years: [2014, 2015, 2016, 2017]
+kazakhstan_unit: "one adult respondent-year observation"
+kazakhstan_primary_outcome: "Prob_Mod_Sev"
+kazakhstan_secondary_outcome: "Prob_sev"
+kazakhstan_raw_outcome: "Raw_score"
+kazakhstan_weight_2014: "wt"
+kazakhstan_weight_2015: "wt"
+kazakhstan_weight_2016: "wt"
+kazakhstan_weight_2017: "wt"
+kazakhstan_region: "NOT AVAILABLE"
+kazakhstan_urban_rural: "Area"
+kazakhstan_demographics: ["Age", "Gender", "Education", "Income", "N_adults", "N_child", "Area"]
+kazakhstan_remittance_available: "NOT AVAILABLE"
+kazakhstan_shock_available: "NOT AVAILABLE"
+kazakhstan_interaction_model_feasible: "NOT FEASIBLE"
+kazakhstan_trend_feasible: "FULL"
+kazakhstan_role: "K1+K2"
+kazakhstan_open_decisions:
+  - "Weight rescaling for any future pooled-year file"
+  - "Whether to use official probabilities or raw score for main benchmark tables"
+  - "How to present Area because Towns/Rural is a combined category"
+  - "Whether supervisor wants validation recomputation of Raw_score"
+phase_2k_boundary: "No appending, prevalence calculation, regression, or respondent-level export"
+
+phase_3_technical_revision:
+  parquet_engine: "pyarrow"
+  parquet_export_status: "VALIDATED"
+  l2cu_popw_status: "RETAINED BUT NOT APPROVED"
+  kazakhstan_year_specific_weight_approved: 1
+  kazakhstan_pooled_weight_approved: 0
+  kyrgyzstan_outcome_level: "ADULT PRIMARY; HOUSEHOLD SENSITIVITY ONLY"
+
+kazakhstan_phase_4_status: "Kazakhstan FIES access is granted. Kazakhstan is used as a K1+K2 food-insecurity trend and demographic benchmark. It is not part of the remittance-shock interaction model."
+
+
+## Phase 5 country-specific association models
+
+Phase 5 is complete. Models are country-specific, observational, household-clustered where applicable, and do not pool country records or make causal claims.
+
+
+## Phase 5 sparse-cell revision
+
+Uzbekistan work-loss is reclassified as secondary exploratory. UZBROAD_M2 is PRIMARY APPROVED WITH LIMITATIONS using `uzb_any_verified_shock`; estimates remain unweighted and observational.
+
+
+## Phase 6 evidence synthesis
+
+Phase 6 is complete. Evidence is synthesized for manuscript preparation with non-causal wording, country-specific interpretation, and Kazakhstan benchmark boundaries.
+
+
+Phase 7 limited robustness: completed; primary findings preserved; remaining literature and weight limitations documented.

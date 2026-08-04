@@ -1,0 +1,5 @@
+file,incorrect_negative_association_count,correct_positive_association_count,status
+manuscript\full_manuscript_v2_clean.md,0,3,PASS
+manuscript\abstract_v2.md,0,1,PASS
+manuscript\references_verified_v2.md,0,0,PASS
+manuscript\figures\figure_captions_v2.md,0,0,PASS

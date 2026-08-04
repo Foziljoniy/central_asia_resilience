@@ -1,0 +1,5 @@
+variable,denominator,observations,nonmissing,missing,weight_status,small_cell_status,mean,sd,median,p25,p75,min,max
+mean_fies,unique households,2000,2000,0,household-equal unweighted sensitivity,ADEQUATE,0.7150082559572782,1.1598993037448795,0.20588235294117646,0.0,0.8916666666666666,0.0,7.5
+prop_remittance,unique households,2000,2000,0,household-equal unweighted sensitivity,ADEQUATE,0.06548212961279172,0.1585364598930741,0.0,0.0,0.0,0.0,1.0
+prop_verified_shock,unique households,2000,2000,0,household-equal unweighted sensitivity,ADEQUATE,0.01694310179733791,0.061725231570227745,0.0,0.0,0.0,0.0,1.0
+eligible_rounds,unique households,2000,2000,0,household-equal unweighted sensitivity,ADEQUATE,23.5675,12.327669263276508,34.0,11.0,34.0,1.0,34.0

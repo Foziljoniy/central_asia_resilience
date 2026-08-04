@@ -1,0 +1,4 @@
+document,popw_reference,finding,documentation_status
+research/phase_03_variable_specification.csv,uzb_popw_unverified copied from popw,retained unapproved weight,INSUFFICIENT
+research/main_analysis_plan.md,popw exists but needs documentation,do not use until interpretation documented,INSUFFICIENT
+World Bank L2CU catalogue,metadata availability noted online; no local verified normalization or design details extracted,"survey has household and individual units and rounds 1-82, but weight meaning not verified locally",INSUFFICIENT
