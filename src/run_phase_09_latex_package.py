@@ -24,15 +24,29 @@ READER = "Foziljon_Alisherov_Remittances_Shocks_Reader"
 SUBMISSION = "Foziljon_Alisherov_Remittances_Shocks_Submission"
 
 
-AUTHOR_BLOCK = r"""Foziljon Alisherov\\
-Research Assistant, New Uzbekistan University\\
-ORCID: \href{https://orcid.org/0009-0004-9451-0518}{0009-0004-9451-0518}\\
-Email: \href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}
+AUTHOR_BLOCK = r"""{\large\textit{Evidence from the Life in Kyrgyzstan Study and Listening to the Citizens of Uzbekistan Survey}\par}
 
-\vspace{1em}
-\textbf{Corresponding author:}\\
-Foziljon Alisherov\\
-\href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}"""
+\vspace{1.3em}
+{\large\bfseries Working Paper\par}
+
+\vspace{1.3em}
+{\large Author: Foziljon Alisherov\par}
+
+\vspace{0.8em}
+{\large Research Assistant, New Uzbekistan University\par}
+
+\vspace{0.8em}
+{\large ORCID: \href{https://orcid.org/0009-0004-9451-0518}{https://orcid.org/0009-0004-9451-0518}\par}
+
+\vspace{0.8em}
+{\large Email: \href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}\par}
+
+\vspace{1.1em}
+{\large August 2026\par}
+
+\vspace{1.1em}
+{\large Corresponding author: Foziljon Alisherov\par}
+{\large Email: \href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}\par}"""
 
 
 BIB = r"""
@@ -637,6 +651,9 @@ Analysis code and non-restricted replication materials are available from the co
 \subsection*{Author contributions}
 Foziljon Alisherov: Conceptualization, methodology, software, validation, formal analysis, investigation, data curation, visualization, writing---original draft, writing---review and editing, and project administration.
 
+\subsection*{Acknowledgements}
+The author gratefully acknowledges Sarvinoz Abdumo'minova, Ibroxim Ergashev, Nilufar Farmonova, Ozodbek Islomov, and Jahongir Boltayev for their assistance with preliminary data organization and literature searches.
+
 \subsection*{Generative-AI disclosure}
 Generative AI tools were used to assist with drafting, organization, and language refinement. The author reviewed and verified all analyses, numerical results, citations, interpretations, and final text and takes full responsibility for the content."""
 
@@ -737,8 +754,11 @@ def preamble(submission: bool) -> str:
 def title_page() -> str:
     return r"""\begin{titlepage}
 \centering
-{\Large\bfseries Do Remittances Buffer Household Shocks?\\Evidence on Food Insecurity in Kyrgyzstan and Uzbekistan\par}
-\vspace{2em}
+{\Large\bfseries\textcolor{teal!45!black}{Do Remittances Buffer Household Shocks?\\Evidence on Food Insecurity in Kyrgyzstan and Uzbekistan}\par}
+\vspace{0.4em}
+\textcolor{teal!45!black}{\rule{0.94\textwidth}{0.6pt}}
+
+\vspace{1.0em}
 """ + AUTHOR_BLOCK + r"""
 \end{titlepage}"""
 
@@ -843,7 +863,7 @@ def reference_and_declaration_validation() -> dict:
         manual.extend(re.findall(pat, reader_tex))
     placeholders = [
         "[AUTHOR TO CONFIRM", "[NOT YET SELECTED]", "Author-information placeholders",
-        "Target journal:", "Acknowledgements"
+        "Target journal:"
     ]
     placeholder_count = sum(reader_tex.count(p) + sub_tex.count(p) for p in placeholders)
     pdf_text = ""
@@ -898,12 +918,12 @@ def validation_rows(reader_status: str, sub_status: str, reader_pages: int, sub_
         "No ?? cross-references appear", "No missing figure boxes appear", "Equation symbols render correctly",
         "Page numbers are present", "Reader version has no line numbers",
         "Submission version has continuous line numbers", "References are alphabetized consistently",
-        "ORCID and email links work", "All placeholders are clearly visible",
+        "ORCID and email links work", "Final declaration text renders",
         "Main findings match approved numerical audit", "Kyrgyzstan remains directional but imprecise",
         "Uzbekistan retains fixed-effects qualification", "L2CU is described as unweighted",
         "Kazakhstan remains benchmark-only", "Work-loss result remains exploratory",
         "No causal claim appears", "Author metadata is correct",
-        "All unresolved declarations remain visible",
+        "Acknowledgements render",
     ]
     render_counts = {
         "Reader": render_count(FINAL / f"{READER}.pdf", ROOT / "tmp" / "pdf_validation" / "reader"),
