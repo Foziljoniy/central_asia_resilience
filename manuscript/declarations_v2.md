@@ -6,7 +6,14 @@ Research Assistant, New Uzbekistan University
 ORCID: 0009-0004-9451-0518  
 ORCID URL: https://orcid.org/0009-0004-9451-0518
 
-Author order: Sole author
+Mukhayyo Djuraeva  
+New Uzbekistan University  
+ORCID: 0000-0001-6163-7513  
+ORCID URL: https://orcid.org/0000-0001-6163-7513  
+Email: m.djuraeva@newuu.uz  
+University profile: https://www.newuu.uz/en/employee/view/faculty-members/419
+
+Author order: Foziljon Alisherov; Mukhayyo Djuraeva
 
 ## Corresponding author and email
 Foziljon Alisherov  

@@ -1,7 +1,7 @@
 # Phase 8 supervisor manuscript revision
 
 ## 1. Main corrections made
-Created clean v2 manuscript, v2 abstract, verified-reference v2 file, v2 citation-gap file, v2 declarations, author-decision list, v2 tables, v2 figure captions and revision audits. Author and corresponding-author metadata were updated for Foziljon Alisherov.
+Created clean v2 manuscript, v2 abstract, verified-reference v2 file, v2 citation-gap file, v2 declarations, author-decision list, v2 tables, v2 figure captions and revision audits. Author metadata record Foziljon Alisherov as first author and Mukhayyo Djuraeva as co-author; Foziljon Alisherov remains corresponding author.
 
 ## 2. Research-question wording correction
 Corrected the research-question sign to: Is the positive association between household shocks and food insecurity weaker among remittance-receiving households in Kyrgyzstan and Uzbekistan?

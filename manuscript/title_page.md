@@ -13,6 +13,16 @@ ORCID: https://orcid.org/0009-0004-9451-0518
 
 Email: f.alisherov@newuu.uz
 
+Co-author: Mukhayyo Djuraeva
+
+New Uzbekistan University
+
+ORCID: https://orcid.org/0000-0001-6163-7513
+
+Email: m.djuraeva@newuu.uz
+
+University profile: [New Uzbekistan University profile](https://www.newuu.uz/en/employee/view/faculty-members/419)
+
 August 2026
 
 Corresponding author: Foziljon Alisherov
