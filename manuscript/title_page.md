@@ -12,11 +12,3 @@ Foziljon Alisherov¹ (ORCID) and Mukhayyo Djuraeva¹ (ORCID)
 Foziljon Alisherov: Research Assistant
 
 Emails: f.alisherov@newuu.uz; m.djuraeva@newuu.uz
-
-University profile: [New Uzbekistan University profile](https://www.newuu.uz/en/employee/view/faculty-members/419)
-
-August 2026
-
-Corresponding author: Foziljon Alisherov
-
-Email: f.alisherov@newuu.uz

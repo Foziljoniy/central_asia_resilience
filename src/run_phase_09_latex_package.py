@@ -24,32 +24,16 @@ READER = "Foziljon_Alisherov_Remittances_Shocks_Reader"
 SUBMISSION = "Foziljon_Alisherov_Remittances_Shocks_Submission"
 
 
-AUTHOR_BLOCK = r"""{\large\textit{Evidence from the Life in Kyrgyzstan Study and Listening to the Citizens of Uzbekistan Survey}\par}
+AUTHOR_BLOCK = r"""{\large\bfseries Foziljon Alisherov\textsuperscript{1,\href{https://orcid.org/0009-0004-9451-0518}{\tiny ORCID}} and Mukhayyo Djuraeva\textsuperscript{1,\href{https://orcid.org/0000-0001-6163-7513}{\tiny ORCID}}\par}
 
 \vspace{1.3em}
-{\large\bfseries Working Paper\par}
-
-\vspace{1.3em}
-{\large\bfseries Foziljon Alisherov\textsuperscript{1,\href{https://orcid.org/0009-0004-9451-0518}{\tiny ORCID}} and Mukhayyo Djuraeva\textsuperscript{1,\href{https://orcid.org/0000-0001-6163-7513}{\tiny ORCID}}\par}
-
-\vspace{1.1em}
 {\large\textsuperscript{1}\textit{New Uzbekistan University}\par}
 
 \vspace{0.8em}
 {\large Research Assistant: Foziljon Alisherov\par}
 
 \vspace{0.8em}
-{\large Emails: \href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}; \href{mailto:m.djuraeva@newuu.uz}{m.djuraeva@newuu.uz}\par}
-
-\vspace{0.8em}
-{\large University profile: \href{https://www.newuu.uz/en/employee/view/faculty-members/419}{New Uzbekistan University profile}\par}
-
-\vspace{1.1em}
-{\large August 2026\par}
-
-\vspace{1.1em}
-{\large Corresponding author: Foziljon Alisherov\par}
-{\large Email: \href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}\par}"""
+{\large Emails: \href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}; \href{mailto:m.djuraeva@newuu.uz}{m.djuraeva@newuu.uz}\par}"""
 
 
 BIB = r"""
