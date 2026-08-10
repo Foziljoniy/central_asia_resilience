@@ -1,7 +1,7 @@
 # Do Remittances Buffer Household Shocks? Evidence on Food Insecurity in Kyrgyzstan and Uzbekistan
 
-Foziljon Alisherov¹ (ORCID: 0009-0004-9451-0518) and Mukhayyo Djuraeva¹ (ORCID: 0000-0001-6163-7513)  
-¹ New Uzbekistan University  
+Foziljon Alisherov [1] (ORCID: 0009-0004-9451-0518) and Mukhayyo Djuraeva [1] (ORCID: 0000-0001-6163-7513)  
+[1] New Uzbekistan University  
 Research Assistant: Foziljon Alisherov  
 Emails: f.alisherov@newuu.uz; m.djuraeva@newuu.uz
 
