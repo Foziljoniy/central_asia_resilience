@@ -12,3 +12,5 @@ Foziljon Alisherov¹ (ORCID) and Mukhayyo Djuraeva¹ (ORCID)
 Foziljon Alisherov: Research Assistant
 
 Emails: f.alisherov@newuu.uz; m.djuraeva@newuu.uz
+
+JEL classification: F24; I32; O15

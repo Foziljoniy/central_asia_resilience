@@ -1,13 +1,9 @@
 # Do Remittances Buffer Household Shocks? Evidence on Food Insecurity in Kyrgyzstan and Uzbekistan
 
-Foziljon Alisherov  
-Research Assistant, New Uzbekistan University  
-ORCID: 0009-0004-9451-0518  
-Email: f.alisherov@newuu.uz
-
-Corresponding author:  
-Foziljon Alisherov  
-Email: f.alisherov@newuu.uz
+Foziljon Alisherov¹ (ORCID: 0009-0004-9451-0518) and Mukhayyo Djuraeva¹ (ORCID: 0000-0001-6163-7513)  
+¹ New Uzbekistan University  
+Research Assistant: Foziljon Alisherov  
+Emails: f.alisherov@newuu.uz; m.djuraeva@newuu.uz
 
 ## Abstract
 
@@ -16,6 +12,8 @@ This paper asks whether the positive association between household shocks and fo
 ## Keywords
 
 remittances; household shocks; food insecurity; resilience; migration; Kyrgyzstan; Uzbekistan; Central Asia
+
+**JEL classification:** F24; I32; O15
 
 ## Introduction
 
