@@ -139,6 +139,53 @@ def build():
         add_markdown_paragraph(doc, line)
         i += 1
 
+    # Append the approved manuscript tables and final figures so the Word file
+    # contains the same supporting material as the final LaTeX package.
+    doc.add_page_break()
+    add_heading = doc.add_paragraph()
+    add_heading.style = doc.styles["Heading 1"]
+    add_heading.add_run("Tables")
+    table_dir = ROOT / "manuscript" / "tables_v2"
+    for table_path in sorted(table_dir.glob("table_*.md")):
+        caption = doc.add_paragraph()
+        caption.paragraph_format.space_before = Pt(8)
+        caption.paragraph_format.space_after = Pt(4)
+        run = caption.add_run(table_path.stem.replace("_", " ").title())
+        run.bold = True
+        rows = []
+        table_lines = table_path.read_text(encoding="utf-8").splitlines()
+        for raw in table_lines:
+            if raw.strip().startswith("|"):
+                cells = [x.strip() for x in raw.strip().strip("|").split("|")]
+                if not all(re.fullmatch(r":?-{3,}:?", x) for x in cells):
+                    rows.append(cells)
+        if rows:
+            add_table(doc, rows)
+
+    doc.add_page_break()
+    fig_heading = doc.add_paragraph()
+    fig_heading.style = doc.styles["Heading 1"]
+    fig_heading.add_run("Figures")
+    figures = [
+        ("figure_19_kyrgyzstan_adjusted_four_groups_v2.png", "Figure 19. Kyrgyzstan adjusted food-insecurity predictions by remittance and shock status."),
+        ("figure_25_uzbekistan_broad_shock_predictions.png", "Figure 25. Uzbekistan adjusted food-insecurity predictions by remittance and verified-shock status."),
+        ("figure_26_revised_standardized_interactions.png", "Figure 26. Standardized remittance-shock interaction associations."),
+        ("figure_24_kazakhstan_benchmark_with_ci.png", "Figure 24. Kazakhstan annual food-insecurity benchmark."),
+    ]
+    for filename, caption_text in figures:
+        image_path = ROOT / "outputs" / "figures" / filename
+        if not image_path.exists():
+            continue
+        doc.add_page_break()
+        p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.add_run().add_picture(str(image_path), width=Inches(6.2))
+        cp = doc.add_paragraph(caption_text)
+        cp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        cp.paragraph_format.space_after = Pt(8)
+        cp.runs[0].italic = True
+        cp.runs[0].font.size = Pt(9)
+
     # Add explicit title-page metadata if the source front matter changes later.
     footer = doc.sections[0].footer.paragraphs[0]
     footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
