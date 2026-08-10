@@ -30,13 +30,13 @@ AUTHOR_BLOCK = r"""{\large\textit{Evidence from the Life in Kyrgyzstan Study and
 {\large\bfseries Working Paper\par}
 
 \vspace{1.3em}
-{\large\bfseries Foziljon Alisherov and Mukhayyo Djuraeva\par}
+{\large\bfseries Foziljon Alisherov\textsuperscript{1,\href{https://orcid.org/0009-0004-9451-0518}{\tiny ORCID}} and Mukhayyo Djuraeva\textsuperscript{1,\href{https://orcid.org/0000-0001-6163-7513}{\tiny ORCID}}\par}
 
 \vspace{1.1em}
-{\large Research Assistant, New Uzbekistan University; New Uzbekistan University\par}
+{\large\textsuperscript{1}\textit{New Uzbekistan University}\par}
 
 \vspace{0.8em}
-{\large ORCID: \href{https://orcid.org/0009-0004-9451-0518}{0009-0004-9451-0518}; \href{https://orcid.org/0000-0001-6163-7513}{0000-0001-6163-7513}\par}
+{\large Research Assistant: Foziljon Alisherov\par}
 
 \vspace{0.8em}
 {\large Emails: \href{mailto:f.alisherov@newuu.uz}{f.alisherov@newuu.uz}; \href{mailto:m.djuraeva@newuu.uz}{m.djuraeva@newuu.uz}\par}

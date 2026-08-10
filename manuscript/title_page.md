@@ -5,11 +5,11 @@ Evidence from the Life in Kyrgyzstan Study and Listening to the Citizens of Uzbe
 
 Working Paper
 
-Foziljon Alisherov and Mukhayyo Djuraeva
+Foziljon Alisherov¹ (ORCID) and Mukhayyo Djuraeva¹ (ORCID)
 
-New Uzbekistan University
+¹ New Uzbekistan University
 
-ORCID: 0009-0004-9451-0518; 0000-0001-6163-7513
+Foziljon Alisherov: Research Assistant
 
 Emails: f.alisherov@newuu.uz; m.djuraeva@newuu.uz
 
