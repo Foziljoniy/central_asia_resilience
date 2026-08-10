@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 
 from docx import Document
+from docx.enum.section import WD_ORIENT
 from docx.enum.section import WD_SECTION
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_CELL_VERTICAL_ALIGNMENT
@@ -24,34 +25,53 @@ def shade(cell, fill):
     tc_pr.append(shd)
 
 
-def set_cell_text(cell, text, bold=False):
+def set_cell_text(cell, text, bold=False, font_size=8.5):
     cell.text = ""
     p = cell.paragraphs[0]
     p.paragraph_format.space_after = Pt(2)
     run = p.add_run(text.strip())
     run.bold = bold
     run.font.name = "Aptos"
-    run.font.size = Pt(9)
+    run.font.size = Pt(font_size)
     cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
 
 
-def add_table(doc, rows):
+def add_table(doc, rows, width_inches=7.0):
     widths = max(len(r) for r in rows)
     table = doc.add_table(rows=len(rows), cols=widths)
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     table.style = "Table Grid"
+    table.autofit = False
+    cell_width = Inches(width_inches / widths)
+    font_size = 7.5 if widths >= 10 else 8.5
     for i, row in enumerate(rows):
         for j in range(widths):
             value = row[j] if j < len(row) else ""
-            set_cell_text(table.cell(i, j), value, bold=(i == 0))
+            table.cell(i, j).width = cell_width
+            set_cell_text(table.cell(i, j), value, bold=(i == 0), font_size=font_size)
             if i == 0:
                 shade(table.cell(i, j), "D9EAF0")
+    header_tr_pr = table.rows[0]._tr.get_or_add_trPr()
+    repeat = OxmlElement("w:tblHeader")
+    repeat.set(qn("w:val"), "true")
+    header_tr_pr.append(repeat)
     doc.add_paragraph().paragraph_format.space_after = Pt(2)
+
+
+def readable_math(text):
+    replacements = {
+        r"\beta_0": "β₀", r"\beta_1": "β₁", r"\beta_2": "β₂", r"\beta_3": "β₃",
+        r"\gamma": "γ", r"\delta_c": "δ_c", r"\tau_t": "τ_t",
+        r"\varepsilon_{ict}": "ε_ict", r"\times": "×",
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    return text.replace(r"\(", "").replace(r"\)", "").replace("_{ict}", "_ict")
 
 
 def add_markdown_paragraph(doc, text):
     text = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", text)
-    text = text.replace("**", "")
+    text = readable_math(text.replace("**", ""))
     p = doc.add_paragraph()
     p.paragraph_format.space_after = Pt(6)
     p.paragraph_format.line_spacing = 1.08
@@ -85,6 +105,22 @@ def build():
         line = lines[i].strip()
         if not line:
             i += 1
+            continue
+        if line == r"\[":
+            equation_parts = []
+            i += 1
+            while i < len(lines) and lines[i].strip() != r"\]":
+                equation_parts.append(lines[i].strip())
+                i += 1
+            i += 1
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.space_before = Pt(6)
+            p.paragraph_format.space_after = Pt(6)
+            run = p.add_run(readable_math(" ".join(equation_parts)))
+            run.font.name = "Cambria Math"
+            run.font.size = Pt(11)
+            run.italic = True
             continue
         if line.startswith("# "):
             p = doc.add_paragraph()
@@ -141,12 +177,21 @@ def build():
 
     # Append the approved manuscript tables and final figures so the Word file
     # contains the same supporting material as the final LaTeX package.
-    doc.add_page_break()
+    landscape = doc.add_section(WD_SECTION.NEW_PAGE)
+    landscape.orientation = WD_ORIENT.LANDSCAPE
+    landscape.page_width = Inches(11)
+    landscape.page_height = Inches(8.5)
+    landscape.top_margin = Inches(0.55)
+    landscape.bottom_margin = Inches(0.55)
+    landscape.left_margin = Inches(0.5)
+    landscape.right_margin = Inches(0.5)
     add_heading = doc.add_paragraph()
     add_heading.style = doc.styles["Heading 1"]
     add_heading.add_run("Tables")
     table_dir = ROOT / "manuscript" / "tables_v2"
-    for table_path in sorted(table_dir.glob("table_*.md")):
+    for table_index, table_path in enumerate(sorted(table_dir.glob("table_*.md"))):
+        if table_index:
+            doc.add_page_break()
         caption = doc.add_paragraph()
         caption.paragraph_format.space_before = Pt(8)
         caption.paragraph_format.space_after = Pt(4)
@@ -160,9 +205,16 @@ def build():
                 if not all(re.fullmatch(r":?-{3,}:?", x) for x in cells):
                     rows.append(cells)
         if rows:
-            add_table(doc, rows)
+            add_table(doc, rows, width_inches=10.0)
 
-    doc.add_page_break()
+    portrait = doc.add_section(WD_SECTION.NEW_PAGE)
+    portrait.orientation = WD_ORIENT.PORTRAIT
+    portrait.page_width = Inches(8.5)
+    portrait.page_height = Inches(11)
+    portrait.top_margin = Inches(0.8)
+    portrait.bottom_margin = Inches(0.8)
+    portrait.left_margin = Inches(0.9)
+    portrait.right_margin = Inches(0.9)
     fig_heading = doc.add_paragraph()
     fig_heading.style = doc.styles["Heading 1"]
     fig_heading.add_run("Figures")
@@ -172,11 +224,12 @@ def build():
         ("figure_26_revised_standardized_interactions.png", "Figure 26. Standardized remittance-shock interaction associations."),
         ("figure_24_kazakhstan_benchmark_with_ci.png", "Figure 24. Kazakhstan annual food-insecurity benchmark."),
     ]
-    for filename, caption_text in figures:
+    for figure_index, (filename, caption_text) in enumerate(figures):
         image_path = ROOT / "outputs" / "figures" / filename
         if not image_path.exists():
             continue
-        doc.add_page_break()
+        if figure_index:
+            doc.add_page_break()
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         p.add_run().add_picture(str(image_path), width=Inches(6.2))

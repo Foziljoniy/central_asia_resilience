@@ -254,7 +254,7 @@ The best summary is therefore balanced. The evidence is directionally consistent
 
 ## Declarations
 
-Author metadata: Foziljon Alisherov, sole author; Research Assistant, New Uzbekistan University; ORCID 0009-0004-9451-0518; corresponding author email f.alisherov@newuu.uz. Funding, conflicts of interest, ethics statement, data availability, code availability, author contributions, acknowledgements, target journal and AI-use disclosure wording remain author decisions. See `manuscript/author_decisions_required.md`.
+Author metadata: Foziljon Alisherov and Mukhayyo Djuraeva, New Uzbekistan University; ORCID 0009-0004-9451-0518 and ORCID 0000-0001-6163-7513. Funding, conflicts of interest, ethics statement, data availability, code availability, author contributions, acknowledgements, target journal and AI-use disclosure wording remain author decisions. See `manuscript/author_decisions_required.md`.
 
 ## References
 
